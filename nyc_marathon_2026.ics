@@ -1,0 +1,3403 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Richard Chen//NYC Marathon 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NYC Marathon 2026 Training
+X-WR-CALDESC:Richard Chen training plan v2.1 (club Tue/Thu + strength\, 2
+ 026-07-25) — 5:00/km plan-of-record\, 3:25 gated. Peak Wk19\, TMB Sep 
+ 14-22\, HM gate Oct 11.
+ 5:00/km (3:29-3:31) plan-of-record\, 3:25 gated. Peak Wk19\, TMB Sep 14-
+ 22\, HM gate Oct 11.
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:wk1-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260427T060000
+DTEND;TZID=America/New_York:20260427T061500
+SUMMARY:🎯 Wk 1 (Base 1) — 28 km / LR 14 km
+DESCRIPTION:WEEK FOCUS: Resume gently\, build habit. Confirm bib + start st
+ rength habit.\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25
+  | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, in
+ tervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk1-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260427T080000
+DTEND;TZID=America/New_York:20260427T091500
+SUMMARY:🏃 8 km — 6×400m I
+DESCRIPTION:6×400m @ I (4:00/km)\, 90s jog\n2 km wu + 2.4 km work + reco
+ ver
+ ies + 2 km cd\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25
+  | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, in
+ tervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk1-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+SUMMARY:💤 Rest
+DESCRIPTION:Rest or 20-min mobility / activation
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk1-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260429T080000
+DTEND;TZID=America/New_York:20260429T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E @ 5:30-6:00/km\, HR < 150\n\nPace key: E 5:30-6:00/km | 
+ L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\,
+  long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk1-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260430T080000
+DTEND;TZID=America/New_York:20260430T083000
+SUMMARY:🏋️ Strength 30min
+DESCRIPTION:Single-leg work\, calf raises\, glute bridges\, planks
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk1-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk1-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260502T080000
+DTEND;TZID=America/New_York:20260502T094500
+SUMMARY:🏃 14 km — Long Run
+DESCRIPTION:14 km L @ 5:45/km\, HR < 150\n\nPace key: E 5:30-6:00/km | L 5:
+ 15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, lon
+ g<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk1-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260504T060000
+DTEND;TZID=America/New_York:20260504T061500
+SUMMARY:🎯 Wk 2 (Base 1) — 32 km / LR 16 km
+DESCRIPTION:WEEK FOCUS: Tempo introduced. Strength habit running.\n\nPace k
+ ey: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50
+ \nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260504T080000
+DTEND;TZID=America/New_York:20260504T091500
+SUMMARY:🏃 9 km — Tempo 2×10 T
+DESCRIPTION:Tempo 2×10 min @ T (4:25/km)\, 3 min jog\n2 km wu + 4 km wor
+ k +
+  3 km cd\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 
+ 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, interva
+ ls 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260506T080000
+DTEND;TZID=America/New_York:20260506T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:5 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260507T080000
+DTEND;TZID=America/New_York:20260507T083000
+SUMMARY:🏋️ Strength + 2km E + strides (2 km)
+DESCRIPTION:Strength 30 min\, then 2 km E + 4×20s strides\n\nPace key: E
+  5:
+ 30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR cap
+ s: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260508
+DTEND;VALUE=DATE:20260509
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260509T080000
+DTEND;TZID=America/New_York:20260509T100000
+SUMMARY:🏃 16 km — Long Run
+DESCRIPTION:16 km L @ 5:45/km\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | M
+ P 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tem
+ po 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk2-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260511T060000
+DTEND;TZID=America/New_York:20260511T061500
+SUMMARY:🎯 Wk 3 (Base 1) — 38 km / LR 18 km
+DESCRIPTION:WEEK FOCUS: Hill strides. First long run beyond half-distance.\
+ n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 
+ 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-18
+ 5
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260511T080000
+DTEND;TZID=America/New_York:20260511T091500
+SUMMARY:🏃 8 km — Hill strides 8×30s
+DESCRIPTION:8×30s hill strides (steep\, walk down)\n3 km wu + reps on ro
+ lli
+ ng course + 3 km cd\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | 
+ T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-18
+ 0\, intervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260513T080000
+DTEND;TZID=America/New_York:20260513T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260514T080000
+DTEND;TZID=America/New_York:20260514T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260515T080000
+DTEND;TZID=America/New_York:20260515T083000
+SUMMARY:🏋️ Strength
+DESCRIPTION:Strength 30 min
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260516T080000
+DTEND;TZID=America/New_York:20260516T101500
+SUMMARY:🏃 18 km — Long Run
+DESCRIPTION:18 km L @ 5:40/km\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | M
+ P 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tem
+ po 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk3-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260518T060000
+DTEND;TZID=America/New_York:20260518T061500
+SUMMARY:🎯 Wk 4 (Down) — 28 km / LR 13 km
+DESCRIPTION:WEEK FOCUS: 🏁 Block 1 milestone week — 5K time trial Sat
+  23 May
+ .\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | 
+ R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-
+ 185\n\nMILESTONE THIS WEEK:\n🏁 Block 1 Milestone: 5K Time Trial
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260518T080000
+DTEND;TZID=America/New_York:20260518T084500
+SUMMARY:🏃 5 km — Easy + strides
+DESCRIPTION:5 km E + 4×20s strides\n\nPace key: E 5:30-6:00/km | L 5:15-
+ 5:4
+ 5 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\
+ , tempo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260520T080000
+DTEND;TZID=America/New_York:20260520T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:5 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260521T080000
+DTEND;TZID=America/New_York:20260521T083000
+SUMMARY:🏋️ Strength only
+DESCRIPTION:Strength 30 min\, no run
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260523T080000
+DTEND;TZID=America/New_York:20260523T094500
+SUMMARY:🏁 13 km — 5K TIME TRIAL (in 13km outing)
+DESCRIPTION:🏁 BLOCK 1 MILESTONE — 5K Time Trial\n3 km wu + 5K @ best
+  effort
+  + 5 km cd\nTarget: ≤ 20:30 (4:06/km) — your current Riegel-equivale
+ nt fro
+ m 1:34:30 HM\nStretch: sub-20:00 (4:00/km) is at the edge of current abili
+ ty — possible on a flat fast day\nIf miss → check for fatigue or und
+ er-rec
+ overy\, don't change the plan\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | 
+ MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, te
+ mpo 172-180\, intervals 180-185
+CATEGORIES:Training,test
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260524T080000
+DTEND;TZID=America/New_York:20260524T084500
+SUMMARY:🏃 5 km — Easy recovery
+DESCRIPTION:5 km E recovery jog\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 |
+  MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, t
+ empo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk4-milestone@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260523T073000
+DTEND;TZID=America/New_York:20260523T080000
+SUMMARY:🏁 Block 1 Milestone: 5K Time Trial
+DESCRIPTION:Target ≤ 20:30 (Riegel from 1:34:30 HM). Stretch: sub-20:00
+ .\n\
+ nOther block 1 checks:\n- Avg ≥ 31 km/wk this block\n- Easy run avg HR
+  < 1
+ 52\n- 6+/8 strength sessions\n- No persistent niggles >3 days\n\nIf miss
+  →
+  check for fatigue or under-recovery\, don't change the plan.
+CATEGORIES:Training,Milestone
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk5-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260525T060000
+DTEND;TZID=America/New_York:20260525T061500
+SUMMARY:🎯 Wk 5 (Base 2) — 42 km / LR 20 km
+DESCRIPTION:WEEK FOCUS: Volume step up. Tempo extends to 3×10.\n\nPace k
+ ey:
+  E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nH
+ R caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk5-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260525T080000
+DTEND;TZID=America/New_York:20260525T093000
+SUMMARY:🏃 11 km — Tempo 3×10 T
+DESCRIPTION:Tempo 3×10 min @ T\, 3 min jog\n2 km wu + 6 km work + 3 km c
+ d\n
+ \nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3
+ :30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk5-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260526T080000
+DTEND;TZID=America/New_York:20260526T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:5 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk5-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk5-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260528T080000
+DTEND;TZID=America/New_York:20260528T090000
+SUMMARY:🏃 6 km — Easy + strides
+DESCRIPTION:6 km E + 4×20s strides\n\nPace key: E 5:30-6:00/km | L 5:15-
+ 5:4
+ 5 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\
+ , tempo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk5-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260529T080000
+DTEND;TZID=America/New_York:20260529T083000
+SUMMARY:🏋️ Strength
+DESCRIPTION:Strength 30 min
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk5-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260530T080000
+DTEND;TZID=America/New_York:20260530T101500
+SUMMARY:🏃 20 km — Long Run
+DESCRIPTION:20 km L @ 5:35/km\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | M
+ P 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tem
+ po 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk5-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk6-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260601T060000
+DTEND;TZID=America/New_York:20260601T061500
+SUMMARY:🎯 Wk 6 (Base 2) — 48 km / LR 22 km
+DESCRIPTION:WEEK FOCUS: Hill repeats begin — NYC course prep starts.\n\
+ nPac
+ e key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3
+ :50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk6-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260601T080000
+DTEND;TZID=America/New_York:20260601T093000
+SUMMARY:🏃 10 km — Hills 8×60s
+DESCRIPTION:Hills 8×60s @ I effort\, jog down\n3 km wu + reps + 3 km cd\
+ n\n
+ Pace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:3
+ 0-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk6-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260602T080000
+DTEND;TZID=America/New_York:20260602T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk6-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk6-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260604T080000
+DTEND;TZID=America/New_York:20260604T090000
+SUMMARY:🏃 7 km — Easy
+DESCRIPTION:7 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk6-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260605T080000
+DTEND;TZID=America/New_York:20260605T083000
+SUMMARY:🏋️ Strength + 3 km + strides (3 km)
+DESCRIPTION:Strength 30 min\, then 3 km E + 4×20s strides\n\nPace key: E
+  5:
+ 30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR cap
+ s: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk6-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260606T080000
+DTEND;TZID=America/New_York:20260606T103000
+SUMMARY:🏃 22 km — Long Run
+DESCRIPTION:22 km L @ 5:30/km\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | M
+ P 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tem
+ po 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk6-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk7-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260608T060000
+DTEND;TZID=America/New_York:20260608T061500
+SUMMARY:🎯 Wk 7 (Base 2) — 54 km / LR 24 km
+DESCRIPTION:WEEK FOCUS: First true VO₂ workout. Volume hits 54.\n\nPace
+  key
+ : E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\n
+ HR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk7-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260608T080000
+DTEND;TZID=America/New_York:20260608T093000
+SUMMARY:🏃 11 km — 5×1k I
+DESCRIPTION:5×1k @ I (4:00/km)\, 2 min jog\n2 km wu + 7 km work + 2 km c
+ d\n
+ \nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3
+ :30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk7-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260609T080000
+DTEND;TZID=America/New_York:20260609T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk7-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260610T080000
+DTEND;TZID=America/New_York:20260610T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:5 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk7-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260611T080000
+DTEND;TZID=America/New_York:20260611T090000
+SUMMARY:🏃 8 km — Easy + strides
+DESCRIPTION:8 km E + 4×20s strides\n\nPace key: E 5:30-6:00/km | L 5:15-
+ 5:4
+ 5 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\
+ , tempo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk7-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260612T080000
+DTEND;TZID=America/New_York:20260612T083000
+SUMMARY:🏋️ Strength
+DESCRIPTION:Strength 30 min
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk7-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260613T080000
+DTEND;TZID=America/New_York:20260613T104500
+SUMMARY:🏃 24 km — Long Run
+DESCRIPTION:24 km L @ 5:30/km\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | M
+ P 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tem
+ po 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk7-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260615T060000
+DTEND;TZID=America/New_York:20260615T061500
+SUMMARY:🎯 Wk 8 (Down) — 40 km / LR 18 km
+DESCRIPTION:WEEK FOCUS: 🏁 Block 2 milestone — 30-min steady test ins
+ ide Sat
+  LR.\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00
+  | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 1
+ 80-185\n\nMILESTONE THIS WEEK:\n🏁 Block 2 Milestone: 30-min Steady Test
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260615T080000
+DTEND;TZID=America/New_York:20260615T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E (recovery)\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | M
+ P 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tem
+ po 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260617T080000
+DTEND;TZID=America/New_York:20260617T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260618T080000
+DTEND;TZID=America/New_York:20260618T093000
+SUMMARY:🏃 12 km — Fartlek 6×2 (light)
+DESCRIPTION:Light fartlek 6×2 min on/2 min off (on = T effort)\n2 km wu 
+ + 8
+  km + 2 km cd\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25
+  | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, in
+ tervals 180-185
+CATEGORIES:Training,Q2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260620T080000
+DTEND;TZID=America/New_York:20260620T101500
+SUMMARY:🏁 18 km — LR + 30-min STEADY TEST
+DESCRIPTION:🏁 BLOCK 2 MILESTONE — 30-min steady test\n6 km L wu → 
+ 30 min @ 
+ best sustainable T (target ≥ 6.5 km\, HR ≤ 175) → cd to 18 total\n
+ \nPace k
+ ey: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50
+ \nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,test
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk8-milestone@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260620T073000
+DTEND;TZID=America/New_York:20260620T080000
+SUMMARY:🏁 Block 2 Milestone: 30-min Steady Test
+DESCRIPTION:Target ≥ 6.5 km in 30 min @ HR ≤ 175.\n\nOther block 2 ch
+ ecks:\
+ n- Wk 7 hit 54 km ✓\n- 24 km LR finishing strong\n- Resting HR steady 
+ or l
+ ower vs Wk 1\n- Race-day super-shoes selected (order now)\n\nIf miss →
+  thr
+ eshold needs work\, stretch tempo block in Wks 9-11.
+CATEGORIES:Training,Milestone
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk9-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260622T060000
+DTEND;TZID=America/New_York:20260622T061500
+SUMMARY:🎯 Wk 9 (Build 1) — 54 km / LR 24 km
+DESCRIPTION:WEEK FOCUS: First MP volume in long run (last 3 km).\n\nPace ke
+ y: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\
+ nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk9-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260622T080000
+DTEND;TZID=America/New_York:20260622T093000
+SUMMARY:🏃 12 km — Tempo 4×10 T
+DESCRIPTION:Tempo 4×10 min @ T\, 2 min jog\n2 km wu + 8 km + 2 km cd\n\n
+ Pac
+ e key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3
+ :50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk9-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260623T080000
+DTEND;TZID=America/New_York:20260623T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk9-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260624T080000
+DTEND;TZID=America/New_York:20260624T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:5 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk9-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260625T080000
+DTEND;TZID=America/New_York:20260625T090000
+SUMMARY:🏃 7 km — Easy + strides
+DESCRIPTION:7 km E + 4×20s strides\n\nPace key: E 5:30-6:00/km | L 5:15-
+ 5:4
+ 5 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\
+ , tempo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk9-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260626T080000
+DTEND;TZID=America/New_York:20260626T083000
+SUMMARY:🏋️ Strength
+DESCRIPTION:Strength 30 min
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk9-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260627T080000
+DTEND;TZID=America/New_York:20260627T104500
+SUMMARY:🏃 24 km — LR + last 3km MP
+DESCRIPTION:24 km LR — first 21 L\, last 3 km @ MP (4:45/km)\n\nPace ke
+ y: E
+  5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR 
+ caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk9-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk10-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260629T060000
+DTEND;TZID=America/New_York:20260629T061500
+SUMMARY:🎯 Wk 10 (Build 1) — 58 km / LR 26 km
+DESCRIPTION:WEEK FOCUS: MP segment doubles to 6 km. Hills again.\n\nPace ke
+ y: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\
+ nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk10-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260629T080000
+DTEND;TZID=America/New_York:20260629T093000
+SUMMARY:🏃 11 km — Hills 10×60s
+DESCRIPTION:Hills 10×60s @ I effort\n3 km wu + reps + 3 km cd\n\nPace ke
+ y: 
+ E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR
+  caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk10-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260630T080000
+DTEND;TZID=America/New_York:20260630T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk10-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260701T080000
+DTEND;TZID=America/New_York:20260701T090000
+SUMMARY:🏃 7 km — Easy
+DESCRIPTION:7 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk10-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260702T080000
+DTEND;TZID=America/New_York:20260702T090000
+SUMMARY:🏃 8 km — Easy + strides
+DESCRIPTION:8 km E + 4×20s strides\n\nPace key: E 5:30-6:00/km | L 5:15-
+ 5:4
+ 5 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\
+ , tempo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk10-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk10-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260704T080000
+DTEND;TZID=America/New_York:20260704T110000
+SUMMARY:🏃 26 km — LR + last 6km MP
+DESCRIPTION:26 km LR — 20 L + 6 km @ MP\n\nPace key: E 5:30-6:00/km | L
+  5:1
+ 5-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long
+ <154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk10-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk11-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260706T060000
+DTEND;TZID=America/New_York:20260706T061500
+SUMMARY:🎯 Wk 11 (Build 1) — 62 km / LR 28 km
+DESCRIPTION:WEEK FOCUS: First training run beyond half-marathon. Negative-s
+ plit target.\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 
+ | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, int
+ ervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk11-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260706T080000
+DTEND;TZID=America/New_York:20260706T094500
+SUMMARY:🏃 13 km — 6×1k I
+DESCRIPTION:6×1k @ I (4:00/km)\, 2 min jog\n2 km wu + 9 km + 2 km cd\n\n
+ Pac
+ e key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3
+ :50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk11-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260707T080000
+DTEND;TZID=America/New_York:20260707T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk11-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260708T080000
+DTEND;TZID=America/New_York:20260708T090000
+SUMMARY:🏃 8 km — Easy
+DESCRIPTION:8 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk11-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260709T080000
+DTEND;TZID=America/New_York:20260709T090000
+SUMMARY:🏃 7 km — Easy + strides
+DESCRIPTION:7 km E + 4×20s strides\n\nPace key: E 5:30-6:00/km | L 5:15-
+ 5:4
+ 5 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\
+ , tempo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk11-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260710T080000
+DTEND;TZID=America/New_York:20260710T083000
+SUMMARY:🏋️ Strength
+DESCRIPTION:Strength 30 min
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk11-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260711T080000
+DTEND;TZID=America/New_York:20260711T111500
+SUMMARY:🏃 28 km — Long Run
+DESCRIPTION:28 km L @ 5:30/km\, negative-split target\n\nPace key: E 5:30-6
+ :00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: e
+ asy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk11-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260713T060000
+DTEND;TZID=America/New_York:20260713T061500
+SUMMARY:🎯 Wk 12 (Down) — 46 km / LR 20 km
+DESCRIPTION:WEEK FOCUS: 🏁 Block 3 milestone — 10K progression test i
+ nside S
+ at LR.\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:
+ 00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals
+  180-185\n\nMILESTONE THIS WEEK:\n🏁 Block 3 Milestone: 10K Progressio
+ n Tes
+ t
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260713T080000
+DTEND;TZID=America/New_York:20260713T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:6 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260715T080000
+DTEND;TZID=America/New_York:20260715T090000
+SUMMARY:🏃 8 km — Easy
+DESCRIPTION:8 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260716T080000
+DTEND;TZID=America/New_York:20260716T093000
+SUMMARY:🏃 12 km — Fartlek 8×1 (light)
+DESCRIPTION:Easy fartlek 8×1 on/1 off\n2 km wu + 8 km + 2 km cd\n\nPace 
+ key
+ : E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\n
+ HR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Q2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260718T080000
+DTEND;TZID=America/New_York:20260718T103000
+SUMMARY:🏁 20 km — LR + 10K PROGRESSION TEST
+DESCRIPTION:🏁 BLOCK 3 MILESTONE — 10K progression test\n8 km L wu 
+ → 10K wit
+ h last 5K @ T (target ≤ 4:25/km\, HR ≤ 178) → 2 km cd\n\nPace key:
+  E 5:30-
+ 6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: 
+ easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,test
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk12-milestone@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260718T073000
+DTEND;TZID=America/New_York:20260718T080000
+SUMMARY:🏁 Block 3 Milestone: 10K Progression Test
+DESCRIPTION:Target last 5K of progression ≤ 4:25/km\, HR ≤ 178.\n\nOt
+ her bl
+ ock 3 checks:\n- Tempo at ≤ 4:25/km in workouts\n- 28 km LR (Wk 11) ne
+ gati
+ ve-split\n- 6 km @ MP feels controlled in long run\n\nIf miss → extend
+  T v
+ olume in Wks 13-14 before MP work ramps.
+CATEGORIES:Training,Milestone
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk13-target@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260720T060000
+DTEND;TZID=America/New_York:20260720T061500
+SUMMARY:🎯 Wk 13 (Build 2) — 65 km / LR 28 km
+DESCRIPTION:WEEK FOCUS: First true MP workout (3×3 km).\n\nPace key: E 5
+ :30
+ -6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps:
+  easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk13-mon@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260720T080000
+DTEND;TZID=America/New_York:20260720T094500
+SUMMARY:🏃 13 km — MP 3×3 km
+DESCRIPTION:MP 3×3 km @ MP (4:45/km)\, 90s jog\n2 km wu + 9 km + 2 km cd
+ \n\
+ nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 4:25 | I 4:00 | R 3:
+ 30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\, intervals 180-185
+CATEGORIES:Training,Q1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk13-tue@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260721T080000
+DTEND;TZID=America/New_York:20260721T090000
+SUMMARY:🏃 7 km — Easy
+DESCRIPTION:7 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk13-wed@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260722T080000
+DTEND;TZID=America/New_York:20260722T090000
+SUMMARY:🏃 8 km — Easy
+DESCRIPTION:8 km E\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | MP 4:45 | T 
+ 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tempo 172-180\
+ , intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk13-thu@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260723T080000
+DTEND;TZID=America/New_York:20260723T091500
+SUMMARY:🏃 9 km — Easy + strides
+DESCRIPTION:9 km E + 4×20s strides\n\nPace key: E 5:30-6:00/km | L 5:15-
+ 5:4
+ 5 | MP 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\
+ , tempo 172-180\, intervals 180-185
+CATEGORIES:Training,E
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk13-fri@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260724T080000
+DTEND;TZID=America/New_York:20260724T083000
+SUMMARY:🏋️ Strength
+DESCRIPTION:Strength 30 min
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk13-sat@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;TZID=America/New_York:20260725T080000
+DTEND;TZID=America/New_York:20260725T111500
+SUMMARY:🏃 28 km — Long Run
+DESCRIPTION:28 km L @ 5:25/km\n\nPace key: E 5:30-6:00/km | L 5:15-5:45 | M
+ P 4:45 | T 4:25 | I 4:00 | R 3:30-3:50\nHR caps: easy<150\, long<154\, tem
+ po 172-180\, intervals 180-185
+CATEGORIES:Training,LR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk13-sun@nyc-marathon-2026
+DTSTAMP:20260428T035026Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:💤 Rest
+DESCRIPTION:Rest day. Recovery is part of the plan.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-target@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260727T060000
+DTEND;TZID=America/New_York:20260727T061500
+SUMMARY:🎯 Wk 14 (Rebuild) — 46 km / LR 22
+DESCRIPTION:WEEK FOCUS: Consolidate. New weekly shape starts: club Tue/Th
+ u\, strength Tue/Thu evenings\, Fri mobility only.\n\nPace key: E 5:35-5
+ :55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: ea
+ sy/long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260727T080000
+DTEND;TZID=America/New_York:20260727T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:Easy\, HR <=148\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-d
+ ecided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceili
+ ng 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260728T080000
+DTEND;TZID=America/New_York:20260728T091500
+SUMMARY:🏃 9 km — CLUB intervals
+DESCRIPTION:Club session. Bias longer reps if offered. CLUB RULE: run YOU
+ R paces\, not the group's front pod. A tempo that becomes a race costs S
+ aturday's long run.\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided)
+  | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:💤 Rest
+DESCRIPTION:Rest - sandwiched between two hard days\, keep it clean
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260730T080000
+DTEND;TZID=America/New_York:20260730T091500
+SUMMARY:🏃 10 km — CLUB tempo @ T
+DESCRIPTION:Club tempo AT YOUR THRESHOLD 4:30-4:35/km (this is the plan's
+  T session). CLUB RULE: run YOUR paces\, not the group's front pod. A te
+ mpo that becomes a race costs Saturday's long run.\n\nPace key: E 5:35-5
+ :55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: ea
+ sy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:🧘 Mobility 20 min
+DESCRIPTION:20 min hips/quads mobility - NO loading (long run tomorrow):\
+ n- Couch stretch 2×90s/side\n- Half-kneeling hip flexor stretch + poste
+ rior pelvic tilt 2×60s/side\n- 90/90 hip switches 2 min\n- World's grea
+ test stretch 5/side\n- Foam roll quads/glutes 5 min
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-sat@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260801T080000
+DTEND;TZID=America/New_York:20260801T103000
+SUMMARY:🏃 22 km — Long Run
+DESCRIPTION:Strictly easy 5:35-5:55\, HR <=148. Fueling rehearsal #1: 60 
+ g carbs/hr\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30
+ -4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:💤 Rest (optional 5-6 km recovery jog)
+DESCRIPTION:Rest - OR optional recovery jog if ALL true: no niggles anywh
+ ere\, easy-run HR normal this week\, both strength sessions done. If so:
+  5-6 km MAX\, HR capped 140 (~5:50-6:00/km). The pace cap IS the point -
+  this is the agreed release valve\, not bonus training. Volume re-assess
+ ed at Gate 1 (10K\, Sat 8 Aug).
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260728T180000
+DTEND;TZID=America/New_York:20260728T184500
+SUMMARY:🏋️ Strength A — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: First week of Nordics: 2×3 only.\n\nSESSION A —
+  heavy posterior chain (hamstrings/glutes/hips). ~40 min:\n1. Romanian d
+ eadlift 3×8 (the #1 hamstring builder - hinge\, flat back\, feel the st
+ retch)\n2. Nordic curl eccentrics - START 2×3\, build to 3×5 over 4 wk
+ s (brutal DOMS when new: Tue ONLY\, never Thu)\n3. Bulgarian split squat
+  3×8/leg (hip extension + quad eccentric - doubles as TMB descent prep)
+ \n4. Single-leg hip thrust 3×10/leg (glute max - fixes the underused po
+ sterior chain in your gait)\n5. Calf raises 3×12 straight-knee + 3×12 
+ bent-knee (Achilles insurance for the volume ramp)\n6. Copenhagen side p
+ lank 2×20s/side (adductors - overlooked running stabiliser)\n\nDo 4-6+ 
+ hrs after the morning club session. Skip anything that alters your gait 
+ next day.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk14-str-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260730T180000
+DTEND;TZID=America/New_York:20260730T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:SESSION B — moderate\, gait + stability (NO heavy eccentric
+ s: long run is ~36 hrs away). ~35 min:\n1. Barbell or single-leg hip thr
+ ust 3×10 (moderate load)\n2. Step-downs slow 3×8/leg (eccentric quad c
+ ontrol - TMB descent prep + knee tracking)\n3. Hamstring bridge walkouts
+  or swiss-ball curls 3×8 (hamstring endurance\, low DOMS)\n4. Banded st
+ anding hip-flexor march 3×10/leg (hip flexors need STRENGTH too\, not j
+ ust stretching - weak+tight is the usual combo)\n5. Lateral band walks 2
+ ×15/side + clamshells 2×15 (glute med - single-leg stance stability)\n
+ 6. Plank 2×45s + side plank 2×30s/side\n\nDo 4-6+ hrs after the mornin
+ g club tempo. Moderate effort - leave the gym feeling worked\, not wreck
+ ed.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-target@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260803T060000
+DTEND;TZID=America/New_York:20260803T061500
+SUMMARY:🎯 Wk 15 (10K race wk) — 43 km / LR race
+DESCRIPTION:WEEK FOCUS: Mini-taper into SATURDAY 10K (8 Aug). GATE 1: <=4
+ 2:00 opens the 3:25 track. NO CLUB THURSDAY.\n\nPace key: E 5:35-5:55/km
+  | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/lon
+ g <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260803T080000
+DTEND;TZID=America/New_York:20260803T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260804T080000
+DTEND;TZID=America/New_York:20260804T091500
+SUMMARY:🏃 9 km — CLUB intervals (CONTROLLED)
+DESCRIPTION:Race is 4 days away - tell the club: 5×1 km @ ~4:12/km max\,
+  full recoveries\, nothing heroic. CLUB RULE: run YOUR paces\, not the g
+ roup's front pod. A tempo that becomes a race costs Saturday's long run.
+ \n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM
+ -eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260806T080000
+DTEND;TZID=America/New_York:20260806T090000
+SUMMARY:🏃 6 km — Easy + strides (SKIP CLUB)
+DESCRIPTION:NO club tempo - race is 2 days away. Short solo easy + 4×20s
+  strides\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4
+ :35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260807T080000
+DTEND;TZID=America/New_York:20260807T084500
+SUMMARY:🏃 4 km — Shakeout + strides
+DESCRIPTION:Very easy + 4×15s strides. Lay out race kit\n\nPace key: E 5
+ :35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR cap
+ s: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-sat@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260808T080000
+DTEND;TZID=America/New_York:20260808T100000
+SUMMARY:🏁 16 km — 10K TUNE-UP RACE
+DESCRIPTION:GATE 1. 3 km wu + 10K race + 3 km cd. <=42:00 keeps 3:25 aliv
+ e\; even effort\; heat-adjust if >20C\n\nPace key: E 5:35-5:55/km | MP 5
+ :00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148
+ \, LR ceiling 154
+CATEGORIES:Training,Race
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:💤 Rest or 20-30 min recovery jog
+DESCRIPTION:Rest\, or very easy 4-5 km recovery jog HR <=135 if legs feel
+  fine
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260804T180000
+DTEND;TZID=America/New_York:20260804T184500
+SUMMARY:🏋️ Strength A — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: Lighter: drop Nordics this week (race Saturday - o
+ nly 4 days out\, keep loads moderate).\n\nSESSION A — heavy posterior 
+ chain (hamstrings/glutes/hips). ~40 min:\n1. Romanian deadlift 3×8 (the
+  #1 hamstring builder - hinge\, flat back\, feel the stretch)\n2. Nordic
+  curl eccentrics - START 2×3\, build to 3×5 over 4 wks (brutal DOMS wh
+ en new: Tue ONLY\, never Thu)\n3. Bulgarian split squat 3×8/leg (hip ex
+ tension + quad eccentric - doubles as TMB descent prep)\n4. Single-leg h
+ ip thrust 3×10/leg (glute max - fixes the underused posterior chain in 
+ your gait)\n5. Calf raises 3×12 straight-knee + 3×12 bent-knee (Achill
+ es insurance for the volume ramp)\n6. Copenhagen side plank 2×20s/side 
+ (adductors - overlooked running stabiliser)\n\nDo 4-6+ hrs after the mor
+ ning club session. Skip anything that alters your gait next day.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk15-milestone@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260808T073000
+DTEND;TZID=America/New_York:20260808T080000
+SUMMARY:🏁 GATE 1: 10K tune-up — ≤42:00 opens 3:25 track
+DESCRIPTION:≤42:00 → 3:25 track open (needs durability + hike gates t
+ oo). 42:00-43:30 → defer to HM Oct 11. >43:30 → lock 5:00/km. Failin
+ g ≠ losing 3:29-3:31.
+CATEGORIES:Training,Milestone
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-target@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260810T060000
+DTEND;TZID=America/New_York:20260810T061500
+SUMMARY:🎯 Wk 16 (Build) — 50 km / LR 24
+DESCRIPTION:WEEK FOCUS: Recovery-first after the race\, then resume. Club
+  both days\, controlled Tuesday.\n\nPace key: E 5:35-5:55/km | MP 5:00 (
+ gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR
+  ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:💤 Rest — post-race recovery
+DESCRIPTION:Rest\, walk/mobility only
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260811T080000
+DTEND;TZID=America/New_York:20260811T091500
+SUMMARY:🏃 8 km — CLUB (easy-side)
+DESCRIPTION:48h post-race: join the club but run the session controlled/r
+ educed - volume not violence. CLUB RULE: run YOUR paces\, not the group'
+ s front pod. A tempo that becomes a race costs Saturday's long run.\n\nP
+ ace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 
+ 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260812T080000
+DTEND;TZID=America/New_York:20260812T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260813T080000
+DTEND;TZID=America/New_York:20260813T091500
+SUMMARY:🏃 10 km — CLUB tempo w/ 5 km MP
+DESCRIPTION:Run the club tempo AT MP 5:00/km this week (plan calls for MP
+  volume). CLUB RULE: run YOUR paces\, not the group's front pod. A tempo
+  that becomes a race costs Saturday's long run.\n\nPace key: E 5:35-5:55
+ /km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/
+ long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:🧘 Mobility 20 min
+DESCRIPTION:20 min hips/quads mobility - NO loading (long run tomorrow):\
+ n- Couch stretch 2×90s/side\n- Half-kneeling hip flexor stretch + poste
+ rior pelvic tilt 2×60s/side\n- 90/90 hip switches 2 min\n- World's grea
+ test stretch 5/side\n- Foam roll quads/glutes 5 min
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-sat@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260815T084500
+DTEND;TZID=America/New_York:20260815T110000
+SUMMARY:🏃 18 km — Long Run (Acadia carriage roads) + fueling rehearsal #2
+ 
+DESCRIPTION:TRIMMED from 24 after Thu threshold overshoot (33 km banked\, 
+ cap ~51). Route: Ledgelawn connector → Witch Hole Pond loop → Eagle Lake 
+ full loop → home ≈ 18 km crushed gravel.\nEFFORT: HR ≤148 cap\, ignore pa
+ ce — roads roll constantly\, power-hike steep 30-sec pitches.\nFUEL (the 
+ point of this run): 60 g/hr — gel at every 25-min beep\, ~100 g total\, t
+ imer never pauses. GF = domestique.\nBREAKS: 2-3 view stops 2-3 min\, one
+  5-min max\, <15 min total stopped. Last 6 km quick-photos-only.\nFoot wh
+ ispers mid-run → day over\, bike escort home.\n\n📍 Pin: https://www.googl
+ e.com/maps/search/?api=1&query=Eagle+Lake+Carriage+Road+entrance%2C+Acadi
+ a+National+Park%2C+ME
+LOCATION:Eagle Lake Carriage Road\, Acadia National Park\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Eagle+Lake+Carriage+Ro
+ ad+entrance%2C+Acadia+National+Park%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+SUMMARY:💤 Rest (optional 5-6 km recovery jog)
+DESCRIPTION:Rest - OR optional recovery jog if ALL true: no niggles anywh
+ ere\, easy-run HR normal this week\, both strength sessions done. If so:
+  5-6 km MAX\, HR capped 140 (~5:50-6:00/km). The pace cap IS the point -
+  this is the agreed release valve\, not bonus training. Volume re-assess
+ ed at Gate 1 (10K\, Sat 8 Aug).
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260811T180000
+DTEND;TZID=America/New_York:20260811T184500
+SUMMARY:🏋️ Strength A — hamstrings/glutes/hips
+DESCRIPTION:SESSION A — heavy posterior chain (hamstrings/glutes/hips).
+  ~40 min:\n1. Romanian deadlift 3×8 (the #1 hamstring builder - hinge\,
+  flat back\, feel the stretch)\n2. Nordic curl eccentrics - START 2×3\,
+  build to 3×5 over 4 wks (brutal DOMS when new: Tue ONLY\, never Thu)\n
+ 3. Bulgarian split squat 3×8/leg (hip extension + quad eccentric - doub
+ les as TMB descent prep)\n4. Single-leg hip thrust 3×10/leg (glute max 
+ - fixes the underused posterior chain in your gait)\n5. Calf raises 3×1
+ 2 straight-knee + 3×12 bent-knee (Achilles insurance for the volume ram
+ p)\n6. Copenhagen side plank 2×20s/side (adductors - overlooked running
+  stabiliser)\n\nDo 4-6+ hrs after the morning club session. Skip anythin
+ g that alters your gait next day.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk16-str-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260813T180000
+DTEND;TZID=America/New_York:20260813T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:SESSION B — moderate\, gait + stability (NO heavy eccentric
+ s: long run is ~36 hrs away). ~35 min:\n1. Barbell or single-leg hip thr
+ ust 3×10 (moderate load)\n2. Step-downs slow 3×8/leg (eccentric quad c
+ ontrol - TMB descent prep + knee tracking)\n3. Hamstring bridge walkouts
+  or swiss-ball curls 3×8 (hamstring endurance\, low DOMS)\n4. Banded st
+ anding hip-flexor march 3×10/leg (hip flexors need STRENGTH too\, not j
+ ust stretching - weak+tight is the usual combo)\n5. Lateral band walks 2
+ ×15/side + clamshells 2×15 (glute med - single-leg stance stability)\n
+ 6. Plank 2×45s + side plank 2×30s/side\n\nDo 4-6+ hrs after the mornin
+ g club tempo. Moderate effort - leave the gym feeling worked\, not wreck
+ ed.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-target@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260817T060000
+DTEND;TZID=America/New_York:20260817T061500
+SUMMARY:🎯 Wk 17 (Build) — 55 km / LR 26
+DESCRIPTION:WEEK FOCUS: First >=55 week of durability gate (needs 3 strai
+ ght: Wk 17-19). Strength doubles as TMB descent prep.\n\nPace key: E 5:3
+ 5-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps:
+  easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260817T080000
+DTEND;TZID=America/New_York:20260817T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260818T080000
+DTEND;TZID=America/New_York:20260818T093000
+SUMMARY:🏃 11 km — CLUB intervals (long reps)
+DESCRIPTION:Bias 1k-2k reps @ T-ish effort - the marathon needs 4:30-5:00
+ /km strength\, not 3:46 speed. CLUB RULE: run YOUR paces\, not the group
+ 's front pod. A tempo that becomes a race costs Saturday's long run.\n\n
+ Pace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff
+  4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260820T080000
+DTEND;TZID=America/New_York:20260820T093000
+SUMMARY:🏃 12 km — CLUB tempo\, finish 4 km MP
+DESCRIPTION:Club tempo @ T\, or run last 4 km @ MP 5:00 if the session ru
+ ns long. CLUB RULE: run YOUR paces\, not the group's front pod. A tempo 
+ that becomes a race costs Saturday's long run.\n\nPace key: E 5:35-5:55/
+ km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/l
+ ong <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:🧘 Mobility 20 min
+DESCRIPTION:20 min hips/quads mobility - NO loading (long run tomorrow):\
+ n- Couch stretch 2×90s/side\n- Half-kneeling hip flexor stretch + poste
+ rior pelvic tilt 2×60s/side\n- 90/90 hip switches 2 min\n- World's grea
+ test stretch 5/side\n- Foam roll quads/glutes 5 min
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-sat@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260822T080000
+DTEND;TZID=America/New_York:20260822T110000
+SUMMARY:🏃 26 km — Long Run
+DESCRIPTION:Strictly easy\, HR <=148. Fueling 60-75 g/hr\n\nPace key: E 5
+ :35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR cap
+ s: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:💤 Rest (optional 5-6 km recovery jog)
+DESCRIPTION:Rest - OR optional recovery jog if ALL true: no niggles anywh
+ ere\, easy-run HR normal this week\, both strength sessions done. If so:
+  5-6 km MAX\, HR capped 140 (~5:50-6:00/km). The pace cap IS the point -
+  this is the agreed release valve\, not bonus training. Volume re-assess
+ ed at Gate 1 (10K\, Sat 8 Aug).
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260818T180000
+DTEND;TZID=America/New_York:20260818T184500
+SUMMARY:🏋️ Strength A — hamstrings/glutes/hips
+DESCRIPTION:SESSION A — heavy posterior chain (hamstrings/glutes/hips).
+  ~40 min:\n1. Romanian deadlift 3×8 (the #1 hamstring builder - hinge\,
+  flat back\, feel the stretch)\n2. Nordic curl eccentrics - START 2×3\,
+  build to 3×5 over 4 wks (brutal DOMS when new: Tue ONLY\, never Thu)\n
+ 3. Bulgarian split squat 3×8/leg (hip extension + quad eccentric - doub
+ les as TMB descent prep)\n4. Single-leg hip thrust 3×10/leg (glute max 
+ - fixes the underused posterior chain in your gait)\n5. Calf raises 3×1
+ 2 straight-knee + 3×12 bent-knee (Achilles insurance for the volume ram
+ p)\n6. Copenhagen side plank 2×20s/side (adductors - overlooked running
+  stabiliser)\n\nDo 4-6+ hrs after the morning club session. Skip anythin
+ g that alters your gait next day.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk17-str-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260820T180000
+DTEND;TZID=America/New_York:20260820T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:SESSION B — moderate\, gait + stability (NO heavy eccentric
+ s: long run is ~36 hrs away). ~35 min:\n1. Barbell or single-leg hip thr
+ ust 3×10 (moderate load)\n2. Step-downs slow 3×8/leg (eccentric quad c
+ ontrol - TMB descent prep + knee tracking)\n3. Hamstring bridge walkouts
+  or swiss-ball curls 3×8 (hamstring endurance\, low DOMS)\n4. Banded st
+ anding hip-flexor march 3×10/leg (hip flexors need STRENGTH too\, not j
+ ust stretching - weak+tight is the usual combo)\n5. Lateral band walks 2
+ ×15/side + clamshells 2×15 (glute med - single-leg stance stability)\n
+ 6. Plank 2×45s + side plank 2×30s/side\n\nDo 4-6+ hrs after the mornin
+ g club tempo. Moderate effort - leave the gym feeling worked\, not wreck
+ ed.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-target@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260824T060000
+DTEND;TZID=America/New_York:20260824T061500
+SUMMARY:🎯 Wk 18 (Build) — 60 km / LR 29
+DESCRIPTION:WEEK FOCUS: First LR past 28 km (lifetime longest). Keep club
+  Tuesday honest - Saturday is the week's real session.\n\nPace key: E 5:
+ 35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps
+ : easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260824T080000
+DTEND;TZID=America/New_York:20260824T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260825T080000
+DTEND;TZID=America/New_York:20260825T091500
+SUMMARY:🏃 10 km — CLUB intervals (long reps)
+DESCRIPTION:Controlled. CLUB RULE: run YOUR paces\, not the group's front
+  pod. A tempo that becomes a race costs Saturday's long run.\n\nPace key
+ : E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nH
+ R caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260826T080000
+DTEND;TZID=America/New_York:20260826T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260827T080000
+DTEND;TZID=America/New_York:20260827T093000
+SUMMARY:🏃 11 km — CLUB tempo 2×15 T
+DESCRIPTION:Plan session = 2×15 min @ T. If club format differs\, match 
+ the total T-volume\, not their pace. CLUB RULE: run YOUR paces\, not the
+  group's front pod. A tempo that becomes a race costs Saturday's long ru
+ n.\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | 
+ HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:🧘 Mobility 20 min
+DESCRIPTION:20 min hips/quads mobility - NO loading (long run tomorrow):\
+ n- Couch stretch 2×90s/side\n- Half-kneeling hip flexor stretch + poste
+ rior pelvic tilt 2×60s/side\n- 90/90 hip switches 2 min\n- World's grea
+ test stretch 5/side\n- Foam roll quads/glutes 5 min
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-sat@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260829T080000
+DTEND;TZID=America/New_York:20260829T111500
+SUMMARY:🏃 29 km — LONG RUN (lifetime longest)
+DESCRIPTION:Durability LR #1. STRICTLY EASY\, HR <=148. Optional last 3 k
+ m MP-feel only if fresh. Fueling rehearsal #2: 75 g/hr\n\nPace key: E 5:
+ 35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps
+ : easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:💤 Rest (optional 5-6 km recovery jog)
+DESCRIPTION:Rest - OR optional recovery jog if ALL true: no niggles anywh
+ ere\, easy-run HR normal this week\, both strength sessions done. If so:
+  5-6 km MAX\, HR capped 140 (~5:50-6:00/km). The pace cap IS the point -
+  this is the agreed release valve\, not bonus training. Volume re-assess
+ ed at Gate 1 (10K\, Sat 8 Aug).
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260825T180000
+DTEND;TZID=America/New_York:20260825T184500
+SUMMARY:🏋️ Strength A — hamstrings/glutes/hips
+DESCRIPTION:SESSION A — heavy posterior chain (hamstrings/glutes/hips).
+  ~40 min:\n1. Romanian deadlift 3×8 (the #1 hamstring builder - hinge\,
+  flat back\, feel the stretch)\n2. Nordic curl eccentrics - START 2×3\,
+  build to 3×5 over 4 wks (brutal DOMS when new: Tue ONLY\, never Thu)\n
+ 3. Bulgarian split squat 3×8/leg (hip extension + quad eccentric - doub
+ les as TMB descent prep)\n4. Single-leg hip thrust 3×10/leg (glute max 
+ - fixes the underused posterior chain in your gait)\n5. Calf raises 3×1
+ 2 straight-knee + 3×12 bent-knee (Achilles insurance for the volume ram
+ p)\n6. Copenhagen side plank 2×20s/side (adductors - overlooked running
+  stabiliser)\n\nDo 4-6+ hrs after the morning club session. Skip anythin
+ g that alters your gait next day.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk18-str-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260827T180000
+DTEND;TZID=America/New_York:20260827T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: Extra moderate - biggest LR yet tomorrow+1.\n\nSES
+ SION B — moderate\, gait + stability (NO heavy eccentrics: long run is
+  ~36 hrs away). ~35 min:\n1. Barbell or single-leg hip thrust 3×10 (mod
+ erate load)\n2. Step-downs slow 3×8/leg (eccentric quad control - TMB d
+ escent prep + knee tracking)\n3. Hamstring bridge walkouts or swiss-ball
+  curls 3×8 (hamstring endurance\, low DOMS)\n4. Banded standing hip-fle
+ xor march 3×10/leg (hip flexors need STRENGTH too\, not just stretching
+  - weak+tight is the usual combo)\n5. Lateral band walks 2×15/side + cl
+ amshells 2×15 (glute med - single-leg stance stability)\n6. Plank 2×45
+ s + side plank 2×30s/side\n\nDo 4-6+ hrs after the morning club tempo. 
+ Moderate effort - leave the gym feeling worked\, not wrecked.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-target@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260831T060000
+DTEND;TZID=America/New_York:20260831T061500
+SUMMARY:🎯 Wk 19 (PEAK) — 64 km / LR 32
+DESCRIPTION:WEEK FOCUS: Peak week. ONE quality day only (Tue) - SKIP CLUB
+  THURSDAY. GATE 2 closes Sunday: 3 wks >=55 + 2 LRs >=28 + no niggle >3 
+ days.\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35
+  | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260831T080000
+DTEND;TZID=America/New_York:20260831T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260901T080000
+DTEND;TZID=America/New_York:20260901T093000
+SUMMARY:🏃 12 km — CLUB intervals → T 3×12
+DESCRIPTION:Plan wants 3×12 min @ T. Do it at club if the session fits\,
+  else solo. CLUB RULE: run YOUR paces\, not the group's front pod. A tem
+ po that becomes a race costs Saturday's long run.\n\nPace key: E 5:35-5:
+ 55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: eas
+ y/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260902T080000
+DTEND;TZID=America/New_York:20260902T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260903T080000
+DTEND;TZID=America/New_York:20260903T091500
+SUMMARY:🏃 9 km — Easy + strides (SKIP CLUB)
+DESCRIPTION:NO club tempo - two hard days + a 32 km peak LR doesn't fit i
+ n one week. Easy + 4×20s strides\n\nPace key: E 5:35-5:55/km | MP 5:00 
+ (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, L
+ R ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:🧘 Mobility 20 min
+DESCRIPTION:20 min hips/quads mobility - NO loading (long run tomorrow):\
+ n- Couch stretch 2×90s/side\n- Half-kneeling hip flexor stretch + poste
+ rior pelvic tilt 2×60s/side\n- 90/90 hip switches 2 min\n- World's grea
+ test stretch 5/side\n- Foam roll quads/glutes 5 min
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-sat@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260905T080000
+DTEND;TZID=America/New_York:20260905T113000
+SUMMARY:🏁 32 km — PEAK LONG RUN (cap 3:15)
+DESCRIPTION:Durability LR #2. STRICTLY EASY - no MP. Cap 32 km or 3:15. F
+ ull race rehearsal: breakfast\, kit\, shoes\, 80-90 g carbs/hr\n\nPace k
+ ey: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\
+ nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,Race
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:💤 Rest (optional 5-6 km recovery jog)
+DESCRIPTION:Rest - OR optional recovery jog if ALL true: no niggles anywh
+ ere\, easy-run HR normal this week\, both strength sessions done. If so:
+  5-6 km MAX\, HR capped 140 (~5:50-6:00/km). The pace cap IS the point -
+  this is the agreed release valve\, not bonus training. Volume re-assess
+ ed at Gate 1 (10K\, Sat 8 Aug).
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260901T180000
+DTEND;TZID=America/New_York:20260901T184500
+SUMMARY:🏋️ Strength A — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: Last heavy Session A before TMB.\n\nSESSION A — 
+ heavy posterior chain (hamstrings/glutes/hips). ~40 min:\n1. Romanian de
+ adlift 3×8 (the #1 hamstring builder - hinge\, flat back\, feel the str
+ etch)\n2. Nordic curl eccentrics - START 2×3\, build to 3×5 over 4 wks
+  (brutal DOMS when new: Tue ONLY\, never Thu)\n3. Bulgarian split squat 
+ 3×8/leg (hip extension + quad eccentric - doubles as TMB descent prep)\
+ n4. Single-leg hip thrust 3×10/leg (glute max - fixes the underused pos
+ terior chain in your gait)\n5. Calf raises 3×12 straight-knee + 3×12 b
+ ent-knee (Achilles insurance for the volume ramp)\n6. Copenhagen side pl
+ ank 2×20s/side (adductors - overlooked running stabiliser)\n\nDo 4-6+ h
+ rs after the morning club session. Skip anything that alters your gait n
+ ext day.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-str-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260903T180000
+DTEND;TZID=America/New_York:20260903T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: Light version - peak LR in ~36 hrs.\n\nSESSION B 
+ — moderate\, gait + stability (NO heavy eccentrics: long run is ~36 hr
+ s away). ~35 min:\n1. Barbell or single-leg hip thrust 3×10 (moderate l
+ oad)\n2. Step-downs slow 3×8/leg (eccentric quad control - TMB descent 
+ prep + knee tracking)\n3. Hamstring bridge walkouts or swiss-ball curls 
+ 3×8 (hamstring endurance\, low DOMS)\n4. Banded standing hip-flexor mar
+ ch 3×10/leg (hip flexors need STRENGTH too\, not just stretching - weak
+ +tight is the usual combo)\n5. Lateral band walks 2×15/side + clamshell
+ s 2×15 (glute med - single-leg stance stability)\n6. Plank 2×45s + sid
+ e plank 2×30s/side\n\nDo 4-6+ hrs after the morning club tempo. Moderat
+ e effort - leave the gym feeling worked\, not wrecked.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk19-milestone@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260906T073000
+DTEND;TZID=America/New_York:20260906T080000
+SUMMARY:🏁 GATE 2: Durability gate closes
+DESCRIPTION:Pass = 3 straight weeks ≥55 km + 2 long runs ≥28 km + no 
+ niggle >3 days. Pass → 3:25 alive pending hike + HM gates. Fail → 5:
+ 00/km locked.
+CATEGORIES:Training,Milestone
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-target@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20260907T060000
+DTEND;TZID=America/New_York:20260907T061500
+SUMMARY:🎯 Wk 20 (Deload → TMB) — 33 km / LR 20
+DESCRIPTION:WEEK FOCUS: 4-day week - FLIES FRI 11 SEP\, TMB starts Mon 14.
+  Full deload: board the flight ~90% fresh\, not sore. NO CLUB\, no heavy 
+ strength (ankle/calf prehab instead). Long run moved to WED so Thu is a t
+ rue rest day before the flight. Pack poles + whey.\n\nPace key: E 5:35-5:
+ 55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy
+ /long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-mon@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20260907T080000
+DTEND;TZID=America/New_York:20260907T085000
+SUMMARY:🏃 8 km — Easy
+DESCRIPTION:Easy\, conversational. First run since the 29 km. COLD FIRST S
+ TEPS CHECK before you go: lateral ankle silent? General DOMS is fine\, fo
+ cal/one-sided is not.\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided
+ ) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-tue@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20260908T080000
+DTEND;TZID=America/New_York:20260908T083500
+SUMMARY:🏃 5 km — Easy (NO CLUB)
+DESCRIPTION:Shakeout only. NO club session - a tempo 6 days before the TMB
+  buys nothing and can cost the hike. Under 35 min\, HR <=140.\n\nPace key
+ : E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR
+  caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-wed@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20260909T080000
+DTEND;TZID=America/New_York:20260909T100000
+SUMMARY:🏃 20 km — Long Run (STRICTLY EASY)
+DESCRIPTION:The negotiated long run. The conditions ARE the deal:\n\n- HR 
+ CAP 145. Pace lands where it lands (~5:30-5:45). NO finish\, no progressi
+ on\, no sub-MP km. If you finish this at 4:45 like the 29\, it was a work
+ out\, not a deload.\n- FLAT route. You are about to absorb ~10\,000 m of 
+ descent - do not pre-damage the quads.\n- SUPERBLAST. Rebels stay parked 
+ until post-TMB.\n- 1 gel around 60 min. Habit\, not need.\n\nGATE: cold f
+ irst steps Mon AND Tue. Lateral ankle speaks -> this run is OFF and you f
+ ly on a rest week. Judge it cold\, not warm.\n\nPace key: E 5:35-5:55/km 
+ | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long 
+ <=148\, LR ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-thu@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:💤 Rest + PACK (no running)
+DESCRIPTION:True rest day so you fly rested rather than sore. This is wher
+ e the 32 km would have gone - it is deliberately empty.\n\nPack: poles (N
+ ON-NEGOTIABLE)\, ~200 g whey\, broken-in boots\, ankle tape\, blister kit
+ .\n\n20 min mobility only if you want it.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-fri@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:✈️ FLY — travel day
+DESCRIPTION:No running. Long-haul: walk the aisle every ~90 min\, hydrate 
+ hard (pale urine on landing)\, compression socks\, calf pumps in the seat
+ .\n\nAnkle note: peroneal history + flights swell everything. Elevate on 
+ arrival.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-sat@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:🚞 Travel to Chamonix — NO RUN
+DESCRIPTION:The old 18 km long run lived here. DELETED - you fly the day b
+ efore\, so this is a travel day\, not a training day.\n\nOptional: 20-30 
+ min easy WALK to unstiffen after the flight. Nothing more. Eat well\, sle
+ ep early\, start shifting the body clock.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-sun@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:💤 Rest — TMB eve
+DESCRIPTION:Full rest. Kit check\, poles adjusted\, boots and socks out\, 
+ tape the ankle if it has said anything at all this week.\n\nCarb up norma
+ lly - you start ~6-8 h/day on foot tomorrow. Sleep 8+ h.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk20-str-tue@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20260908T180000
+DTEND;TZID=America/New_York:20260908T183000
+SUMMARY:🦶 Ankle/calf prehab + mobility (NO heavy legs)
+DESCRIPTION:HEAVY STRENGTH IS OFF THIS WEEK. RDLs/Bulgarians/Nordics the n
+ ight before a 20 km break your own rule (no heavy legs before a long run)
+ \, and DOMS before a 6-day hike is a bad trade.\n\nDO THIS INSTEAD (~30 m
+ in\, doubles as TMB prep for the recurring peroneal ankle):\n1. Calf rais
+ es 3x15 straight-knee + 3x15 bent-knee\, bodyweight only\n2. Ankle eversi
+ on band 3x15/side (PERONEALS - the exact tissue that has flared twice)\n3
+ . Single-leg balance 3x45s/side\, eyes closed (proprioception for uneven 
+ ground)\n4. Toe-yoga / short-foot 2x10/side\n5. Couch stretch 2x90s/side 
+ + 90/90 hip switches 2 min\n6. Foam roll quads/calves 5 min\n\nNothing th
+ at makes you sore. If in doubt\, do less.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-target@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20260921T060000
+DTEND;TZID=America/New_York:20260921T061500
+SUMMARY:🎯 Wk 22 (Re-entry) — 32 km / LR 18 (ceiling 20)
+DESCRIPTION:Hike ends SAT 19\, home ~Sun 20/Mon 21 = FULL re-entry week. L
+ ifted again: 30/LR16 -> 32/LR18.\n\nNO CLUB\, NO STRENGTH. Criteria-based
+  re-entry\, flat routes only\, eat to surplus.\n\nLR CEILING 20 km unlock
+ s ONLY on Fri 25 Sep after Gate 3\, and needs all three: stairs pain-free
+  by Tue 22\, jog test clean Wed 23\, 8 km clean Thu 24\, ankle silent thr
+ oughout. Decided Friday\, not now.\n\nExpect running pop flat-to-down ~2 
+ weeks post-hike. Predicted\, not a red flag.\n\nPace key: E 5:35-5:55/km 
+ | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long 
+ <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-mon@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:🛬 Travel home — walk + mobility only
+DESCRIPTION:No running. Travel/decompress. Walk to unstiffen\, foam roll q
+ uads and calves - they took ~10\,000 m of descent.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-tue@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:🚶 Walk + mobility — assess
+DESCRIPTION:Still no running. Assess: quads on stairs\, lateral ankle\, RH
+ R vs baseline\, weigh in (>2 kg down -> extend easy re-entry 2-3 days).\n
+ \nBoth stairs AND the ankle must be quiet before the Wed jog test.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-wed@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20260923T080000
+DTEND;TZID=America/New_York:20260923T084000
+SUMMARY:🏃 6 km — jog TEST (solo\, NOT club)
+DESCRIPTION:First run back. Solo\, flat\, IGNORE PACE entirely. 30-40 min.
+ \n\nABORT if stairs hurt\, ankle tingles on load\, or RHR >+5 bpm. Moved 
+ Thu -> Wed: that is the gain from the shorter hike\, and it buys a data p
+ oint BEFORE the ~27 Sep Staten Island contingency decision.\n\nPace key: 
+ E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR c
+ aps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-thu@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20260924T080000
+DTEND;TZID=America/New_York:20260924T085000
+SUMMARY:🏃 8 km — Easy\, flat
+DESCRIPTION:Easy\, flat\, HR <=145. No strides yet. Judge the ankle on COL
+ D first steps this morning\, not on how it felt warm yesterday.\n\nPace k
+ ey: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\n
+ HR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-fri@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:🧘 Rest / mobility — GATE 3 today
+DESCRIPTION:No running. GATE 3 (hike-health) adjudicated today - see the s
+ eparate gate block.\n\nMobility + the ankle prehab circuit from wk20 Tue.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-milestone@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260925T073000
+DTEND;TZID=America/New_York:20260925T080000
+SUMMARY:🏁 GATE 3: Hike-health check
+DESCRIPTION:Pass = off TMB uninjured\, no illness\, RHR normalized within
+  3 days. Fail → 3:25 dead\; 5:00/km ceiling pending HM gate.
+CATEGORIES:Training,Milestone
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-target@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20260928T060000
+DTEND;TZID=America/New_York:20260928T061500
+SUMMARY:🎯 Wk 23 (Restore) — 54 km / LR 32 SLOW (gut rehearsal)
+DESCRIPTION:Days 9-15 post-hike. SKIP CLUB TUESDAY (first quality back is 
+ Thursday\, HR-checked). Strength resumes light Tue evening.\n\nSATURDAY I
+ S A FUELLING TEST\, NOT A FITNESS TEST. ~32 km deliberately SLOW (~3:00) 
+ with 8 gels on a 25-MIN TIMER.\n\nWHY: gut proven to 2:31 / 200 g. Race i
+ s ~3:30 / ~290-320 g. The untested hour is 2:30-3:30 - the 30-35 km windo
+ w where GI distress peaks. Nothing else in the plan reaches it (17 Oct MP
+  run is only ~2:40).\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided)
+  | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260928T080000
+DTEND;TZID=America/New_York:20260928T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260929T080000
+DTEND;TZID=America/New_York:20260929T091500
+SUMMARY:🏃 8 km — Easy + strides (SKIP CLUB)
+DESCRIPTION:No club intervals - too soon post-hike. Solo easy + 4×20s st
+ rides (first strides back)\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-d
+ ecided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceili
+ ng 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261001T080000
+DTEND;TZID=America/New_York:20261001T091500
+SUMMARY:🏃 10 km — CLUB tempo (HR-CHECKED)
+DESCRIPTION:First quality post-hike: 20-25 min @ T-effort at the club\, b
+ ut CUT IT if HR runs 5+ bpm hot for the pace - that's the fatigue-depres
+ sion window\, not lost fitness. CLUB RULE: run YOUR paces\, not the grou
+ p's front pod. A tempo that becomes a race costs Saturday's long run.\n\
+ nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-ef
+ f 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:🧘 Mobility 20 min
+DESCRIPTION:20 min hips/quads mobility - NO loading (long run tomorrow):\
+ n- Couch stretch 2×90s/side\n- Half-kneeling hip flexor stretch + poste
+ rior pelvic tilt 2×60s/side\n- 90/90 hip switches 2 min\n- World's grea
+ test stretch 5/side\n- Foam roll quads/glutes 5 min
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-sat@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20261003T073000
+DTEND;TZID=America/New_York:20261003T104500
+SUMMARY:🏁 32 km — Long Run SLOW + gut-duration test (BAIL RULE)
+DESCRIPTION:PEAK LONG RUN. Target ~3:00 on feet\, NOT a fast run.\n\nPACE:
+  5:35-5:50/km. HR <=148. NO finish\, no progression\, no sub-MP km. If th
+ is turns into another 4:45 finish it stops being the run we planned.\n\nF
+ UEL (the whole point): 8 gels\, 40 g carbs each\, on a 25-MIN REPEATING A
+ LARM - elapsed time\, never paused. Beeps continue until the run ends. ~3
+ 20 g total. This is the first time you go past 2:31 and 200 g.\n\nMANDATO
+ RY BAIL: any quad pain\, ankle tingle on load\, or HR drift >8% -> STOP A
+ T 24 km. No debate mid-run.\n\nOnly +10% on the 29 km of 5 Sep\, with the
+  hike in between as durability work. Superblast.\n\nPace key: E 5:35-5:55
+ /km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/l
+ ong <=148\, LR ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk23-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20260929T180000
+DTEND;TZID=America/New_York:20260929T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: Resume with the LIGHT session (B not A): 60-70% lo
+ ads\, no Nordics this week.\n\nSESSION B — moderate\, gait + stability
+  (NO heavy eccentrics: long run is ~36 hrs away). ~35 min:\n1. Barbell o
+ r single-leg hip thrust 3×10 (moderate load)\n2. Step-downs slow 3×8/l
+ eg (eccentric quad control - TMB descent prep + knee tracking)\n3. Hamst
+ ring bridge walkouts or swiss-ball curls 3×8 (hamstring endurance\, low
+  DOMS)\n4. Banded standing hip-flexor march 3×10/leg (hip flexors need 
+ STRENGTH too\, not just stretching - weak+tight is the usual combo)\n5. 
+ Lateral band walks 2×15/side + clamshells 2×15 (glute med - single-leg
+  stance stability)\n6. Plank 2×45s + side plank 2×30s/side\n\nDo 4-6+ 
+ hrs after the morning club tempo. Moderate effort - leave the gym feelin
+ g worked\, not wrecked.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-target@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20261005T060000
+DTEND;TZID=America/New_York:20261005T061500
+SUMMARY:🎯 Wk 24 (HM TT wk) — 56 km / LR 21.1 TT
+DESCRIPTION:SUN 11 OCT = GATE 4\, now a SOLO PACED TIME TRIAL (decided 9 S
+ ep - no Staten Island\, no Hartford). Club Tuesday only (race-specific re
+ ps). NO CLUB THURSDAY. Tue strength light.\n\nTT ADVANTAGE OVER A RACE: y
+ ou can move the day. Primary Sun 11\, alternates Sat 10 or Mon 12 - pick 
+ the best T+D in the window. Weather call Wed 7 Oct.\n\nWHY WE KEPT IT: yo
+ ur failure mode is execution\, not fitness (Gate 1: HR 188 by km 2 agains
+ t a <170 cap). This is the ONLY race-effort rehearsal left before 1 Nov.\
+ n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-e
+ ff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261005T080000
+DTEND;TZID=America/New_York:20261005T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261006T080000
+DTEND;TZID=America/New_York:20261006T091500
+SUMMARY:🏃 10 km — CLUB → 3×2 km @ HM pace
+DESCRIPTION:Do YOUR session at the club: 3×2 km @ ~4:33/km\, 2 min jog. 
+ Not their session if it's faster. CLUB RULE: run YOUR paces\, not the gr
+ oup's front pod. A tempo that becomes a race costs Saturday's long run.\
+ n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-
+ eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261008T080000
+DTEND;TZID=America/New_York:20261008T091500
+SUMMARY:🏃 8 km — Easy + strides (SKIP CLUB)
+DESCRIPTION:No club tempo - HM in 3 days. Easy + 4×20s strides\n\nPace k
+ ey: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\
+ nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:💤 Rest
+DESCRIPTION:Rest - mini-taper
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-sat@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261010T080000
+DTEND;TZID=America/New_York:20261010T084500
+SUMMARY:🏃 4 km — Shakeout + strides
+DESCRIPTION:Very easy + strides. Lay out full race kit\n\nPace key: E 5:3
+ 5-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps:
+  easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-sun@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20261011T073000
+DTEND;TZID=America/New_York:20261011T100000
+SUMMARY:🏁 GATE 4 — SOLO PACED HM TIME TRIAL (21.1 km)
+DESCRIPTION:FORMAT: 3 km warmup\, 21.1 km at HM effort\, 2-3 km cooldown (
+ ~25 km total).\n\nGF ON THE BIKE HOLDS 4:30/km AND DOES NOT LET YOU GO FA
+ STER IN THE FIRST 5 KM. That is the mechanism - outsource the discipline 
+ you have twice failed to self-impose.\n\nPACE LADDER (solo-adjusted: a so
+ lo TT reads ~1% SLOWER than a race for the same fitness\, so the bar is L
+ OOSER than the 1:35 race deal\, not tighter):\n  <=1:36:30 -> 3:25 REOPEN
+ S\, race pace 4:51-4:56/km (needs Gates 1-3 green)\n  1:36:30-1:40 -> 5:0
+ 0/km (3:31)\n  >1:40 -> open 5:05/km\n\nCONDITIONS GATE: readout counts a
+ s fair only at T+D <120 F. Above that\, apply the weather table BEFORE re
+ ading the result - never temp alone.\n\nEXECUTION REHEARSAL (the actual r
+ eason this exists):\n- T-48h: WRITE DOWN target bands + adjusted opening 
+ pace from the forecast. Pre-commit.\n- First 3 km HR CAP 165. Non-negotia
+ ble. Shaded starts mask effort.\n- Full race kit + race breakfast\, exact
+ ly as 1 Nov.\n- ADIOS PRO 2 - this is the foam validation (2 yrs old\, ~1
+ 00 km).\n- 2 gels\, ~40 min and ~70 min. Intensity fuel test.\n\nCOURSE: 
+ Hudson River Greenway out-and-back. Flat\, continuous\, minimal crossings
+ .\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM
+ -eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,Race
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261006T180000
+DTEND;TZID=America/New_York:20261006T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: Light - race Sunday.\n\nSESSION B — moderate\, g
+ ait + stability (NO heavy eccentrics: long run is ~36 hrs away). ~35 min
+ :\n1. Barbell or single-leg hip thrust 3×10 (moderate load)\n2. Step-do
+ wns slow 3×8/leg (eccentric quad control - TMB descent prep + knee trac
+ king)\n3. Hamstring bridge walkouts or swiss-ball curls 3×8 (hamstring 
+ endurance\, low DOMS)\n4. Banded standing hip-flexor march 3×10/leg (hi
+ p flexors need STRENGTH too\, not just stretching - weak+tight is the us
+ ual combo)\n5. Lateral band walks 2×15/side + clamshells 2×15 (glute m
+ ed - single-leg stance stability)\n6. Plank 2×45s + side plank 2×30s/s
+ ide\n\nDo 4-6+ hrs after the morning club tempo. Moderate effort - leave
+  the gym feeling worked\, not wrecked.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk24-milestone@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20261011T070000
+DTEND;TZID=America/New_York:20261011T073000
+SUMMARY:🏁 GATE 4: HM time trial — BINDING pace-setter
+DESCRIPTION:SOLO TT\, solo-adjusted bars (~1% looser than a race for equal
+  fitness):\n  <=1:36:30 -> 4:51-4:56/km\, 3:25 REOPENS (needs Gates 1-3 g
+ reen)\n  1:36:30-1:40 -> 5:00/km\n  >1:40 -> open 5:05/km\n\nOnly counts 
+ as a fair readout at T+D <120 F. This sets race pace - April PR does not 
+ vote\, and neither does how it felt.
+CATEGORIES:Training,Milestone
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-target@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20261012T060000
+DTEND;TZID=America/New_York:20261012T061500
+SUMMARY:🎯 Wk 25 (Sharpen) — 58 km / LR 30
+DESCRIPTION:Peak sharpening week. Sat = GATE 5\, the final pace lock.\n\nL
+ R lifted 26 -> 30 (9 Sep) now the HM is a TT rather than a travel race - 
+ the recovery cost of Sunday dropped\, so Saturday can carry more. Still t
+ he INTENSITY test\, not a distance test.\n\nPace key: E 5:35-5:55/km | MP
+  5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=14
+ 8\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:💤 Rest — post-race
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261013T080000
+DTEND;TZID=America/New_York:20261013T090000
+SUMMARY:🏃 6 km — Easy recovery (SKIP CLUB)
+DESCRIPTION:48h post-HM: no club intervals. Very easy solo\n\nPace key: E
+  5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR c
+ aps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261014T080000
+DTEND;TZID=America/New_York:20261014T091500
+SUMMARY:🏃 10 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261015T080000
+DTEND;TZID=America/New_York:20261015T094500
+SUMMARY:🏃 13 km — CLUB tempo 2×12 T
+DESCRIPTION:Back to the club: 2×12 min @ T. CLUB RULE: run YOUR paces\, 
+ not the group's front pod. A tempo that becomes a race costs Saturday's 
+ long run.\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-
+ 4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:🧘 Mobility 20 min
+DESCRIPTION:20 min hips/quads mobility - NO loading (long run tomorrow):\
+ n- Couch stretch 2×90s/side\n- Half-kneeling hip flexor stretch + poste
+ rior pelvic tilt 2×60s/side\n- 90/90 hip switches 2 min\n- World's grea
+ test stretch 5/side\n- Foam roll quads/glutes 5 min
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-sat@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20261017T073000
+DTEND;TZID=America/New_York:20261017T101500
+SUMMARY:🏁 30 km — LR + 12-14 km @ MP (GATE 5)
+DESCRIPTION:FINAL DRESS REHEARSAL at gate-decided MP. Structure: 10 km eas
+ y / 12-14 km @ MP / 4-6 km easy. ~2:40 on feet.\n\nExact race fuelling\, 
+ kit\, shoes (Adios Pro 2 - second validation). Gels on the 25-min alarm t
+ hrough the whole run.\n\nTests what the 3 Oct run cannot: whether MP hold
+ s when you are already 20 km deep\, and whether your gut takes gels at ra
+ ce INTENSITY rather than at conversational pace.\n\n"Comfortably hard" or
+  drop one pace tier. If the MP block feels like racing\, your MP is wrong
+  - believe the run\, not the goal.\n\nPace key: E 5:35-5:55/km | MP 5:00 
+ (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR
+  ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-str-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: Maintenance dose only from here - you're keeping s
+ trength\, not building it.\n\nSESSION B — moderate\, gait + stability 
+ (NO heavy eccentrics: long run is ~36 hrs away). ~35 min:\n1. Barbell or
+  single-leg hip thrust 3×10 (moderate load)\n2. Step-downs slow 3×8/le
+ g (eccentric quad control - TMB descent prep + knee tracking)\n3. Hamstr
+ ing bridge walkouts or swiss-ball curls 3×8 (hamstring endurance\, low 
+ DOMS)\n4. Banded standing hip-flexor march 3×10/leg (hip flexors need S
+ TRENGTH too\, not just stretching - weak+tight is the usual combo)\n5. L
+ ateral band walks 2×15/side + clamshells 2×15 (glute med - single-leg 
+ stance stability)\n6. Plank 2×45s + side plank 2×30s/side\n\nDo 4-6+ h
+ rs after the morning club tempo. Moderate effort - leave the gym feeling
+  worked\, not wrecked.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk25-milestone@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261018T073000
+DTEND;TZID=America/New_York:20261018T080000
+SUMMARY:🏁 GATE 5: MP dress rehearsal — final pace lock
+DESCRIPTION:12-14 km @ chosen MP 'comfortably hard'\, HR drift OK → loc
+ ked. Fail → drop one tier. No renegotiation after today.
+CATEGORIES:Training,Milestone
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-target@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261019T060000
+DTEND;TZID=America/New_York:20261019T061500
+SUMMARY:🎯 Wk 26 (Taper 1) — 42 km / LR 18
+DESCRIPTION:WEEK FOCUS: Volume -28%\, intensity retained. Club Tuesday CO
+ NTROLLED (MP only). NO CLUB THURSDAY. One short maintenance strength.\n\
+ nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-ef
+ f 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261019T080000
+DTEND;TZID=America/New_York:20261019T090000
+SUMMARY:🏃 6 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261020T080000
+DTEND;TZID=America/New_York:20261020T091500
+SUMMARY:🏃 9 km — CLUB → 2×3 km @ MP
+DESCRIPTION:Taper: 2×3 km @ race MP at the club - do NOT race the group.
+  CLUB RULE: run YOUR paces\, not the group's front pod. A tempo that bec
+ omes a race costs Saturday's long run.\n\nPace key: E 5:35-5:55/km | MP 
+ 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=14
+ 8\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261022T080000
+DTEND;TZID=America/New_York:20261022T090000
+SUMMARY:🏃 6 km — Easy + strides (SKIP CLUB)
+DESCRIPTION:No club tempo - taper. Easy + 4×20s strides\n\nPace key: E 5
+ :35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR cap
+ s: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:🧘 Mobility 15 min (light)
+DESCRIPTION:Light mobility/activation only
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-sat@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261024T080000
+DTEND;TZID=America/New_York:20261024T101500
+SUMMARY:🏃 18 km — LR + 5 km MP
+DESCRIPTION:Easy with 5 km @ race MP mid-run. Last run over 15 km\n\nPace
+  key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:3
+ 3\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk26-str-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261020T180000
+DTEND;TZID=America/New_York:20261020T184500
+SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
+DESCRIPTION:THIS WEEK: Short maintenance: hip thrust + band work + core o
+ nly\, ~20 min. Last strength session of the plan.\n\nSESSION B — moder
+ ate\, gait + stability (NO heavy eccentrics: long run is ~36 hrs away). 
+ ~35 min:\n1. Barbell or single-leg hip thrust 3×10 (moderate load)\n2. 
+ Step-downs slow 3×8/leg (eccentric quad control - TMB descent prep + kn
+ ee tracking)\n3. Hamstring bridge walkouts or swiss-ball curls 3×8 (ham
+ string endurance\, low DOMS)\n4. Banded standing hip-flexor march 3×10/
+ leg (hip flexors need STRENGTH too\, not just stretching - weak+tight is
+  the usual combo)\n5. Lateral band walks 2×15/side + clamshells 2×15 (
+ glute med - single-leg stance stability)\n6. Plank 2×45s + side plank 2
+ ×30s/side\n\nDo 4-6+ hrs after the morning club tempo. Moderate effort 
+ - leave the gym feeling worked\, not wrecked.
+CATEGORIES:Training,Strength
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk27-target@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261026T060000
+DTEND;TZID=America/New_York:20261026T061500
+SUMMARY:🎯 Wk 27 (RACE WEEK) — ~21 + 42.2 km / LR 42.2
+DESCRIPTION:WEEK FOCUS: NO CLUB\, NO STRENGTH this week. Carb-load Thu-Sa
+ t (8-10 g/kg/day). Expo Friday. Pace bracelet printed for gate-decided p
+ ace.\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 
+ | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk27-mon@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:💤 Rest
+DESCRIPTION:Rest
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk27-tue@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261027T080000
+DTEND;TZID=America/New_York:20261027T091500
+SUMMARY:🏃 8 km — 3×2 km MP (SOLO\, skip club)
+DESCRIPTION:Solo: 2 km wu + 3×2 km @ race MP + cd. Skip the club - no gr
+ oup-pace risk 5 days out\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-dec
+ ided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling
+  154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk27-wed@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261028T080000
+DTEND;TZID=America/New_York:20261028T084500
+SUMMARY:🏃 5 km — Easy
+DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
+  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk27-thu@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261029T080000
+DTEND;TZID=America/New_York:20261029T084500
+SUMMARY:🏃 5 km — Easy + strides (SKIP CLUB)
+DESCRIPTION:Easy + 4×20s strides. Carb-load begins: 8-10 g/kg/day\n\nPac
+ e key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:
+ 33\nHR caps: easy/long <=148\, LR ceiling 154
+CATEGORIES:Training
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk27-fri@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:💤 Rest — EXPO (bib pickup)
+DESCRIPTION:Rest. Collect bib + chip. Carb-load day 2
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk27-sat@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261031T080000
+DTEND;TZID=America/New_York:20261031T084500
+SUMMARY:🏃 3 km — 15-min shakeout
+DESCRIPTION:Shakeout + 4×30s pickups. Kit laid out\, bib pinned\, 8 gels
+  packed\, anti-chafe. Early night\n\nPace key: E 5:35-5:55/km | MP 5:00 
+ (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, L
+ R ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk27-sun@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:4
+DTSTART;TZID=America/New_York:20261101T080000
+DTEND;TZID=America/New_York:20261101T123000
+SUMMARY:🏁 42.2 km — NYC MARATHON 🏁
+DESCRIPTION:Plan-of-record 5:00/km (3:29-3:31) unless Gates 4/5 upgraded 
+ to 4:51-4:56. Effort-based on Verrazzano (bank NOTHING). Patience throug
+ h Queensboro. TMB quads are for miles 16-26 + 5th Ave. Gel every 20-25 m
+ in from km 8 (80-90 g/hr). Breakfast 120-150 g carbs 3 hr out. First 2 k
+ m: HR cap\, not pace cap\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-dec
+ ided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling
+  154
+CATEGORIES:Training,Race
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk21-target@nyc-marathon-2026
+DTSTAMP:20260905T120000Z
+SEQUENCE:5
+DTSTART;TZID=America/New_York:20260914T060000
+DTEND;TZID=America/New_York:20260914T061500
+SUMMARY:🎯 Wk 21 (TMB) — 0 run km / hike block
+DESCRIPTION:CONFIRMED: Mon 14 - Sat 19 Sep (6 days). Home ~Sun 20/Mon 21.\
+ n\nTour du Mont Blanc IS the training. No default running\, no strength. 
+ Optional 15-20 min flat Z1 jog on the 2 easiest stages ONLY if morning RH
+ R is within 5 bpm of baseline - never the day after the biggest descent.
+CATEGORIES:Training,WeekTarget
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk21-hike@nyc-marathon-2026
+DTSTAMP:20260802T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260920
+SUMMARY:🥾 TOUR DU MONT BLANC — Mon 14 to Sat 19 Sep
+DESCRIPTION:This IS training: ~40 h Z1-Z2 time-on-feet + ~10\,000 m of ec
+ centric descent = NYC-specific quad durability.\n\nDAILY PROTOCOL:\n- PO
+ LES ON EVERY DESCENT (unloads quads 15-20% - highest-leverage choice of 
+ the trip)\n- Downhill cue: short quick steps\, land under hips\, 'soft k
+ nees - absorb\, don't brake'. Never race the group downhill\n- Carbs 60-
+ 90 g/hr moving\, 8-9 g/kg/day total\n- Protein 1.8-2.2 g/kg/day - hut me
+ als won't cover it\; 25-30 g whey within 30 min of finishing each stage\
+ n- Sleep 8+ h\, hand hygiene in huts\, foot care daily\, first 2 days de
+ liberately conservative\n\nTHE ONE NON-NEGOTIABLE OF THE WHOLE PLAN: com
+ e home uninjured. Everything else has a recovery path\; an ankle here en
+ ds the marathon\, not just 3:25.
+CATEGORIES:Training,Hike
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-fri-1@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260814T100000
+DTEND;TZID=America/New_York:20260814T120000
+SUMMARY:⛰️ Acadia Mountain Loop (2.5 mi) — LAZY pace
+DESCRIPTION:Biggest climb of the day on freshest legs. West Side = no crow
+ ds. Careful on the granite descent — largest single load before the LR. G
+ ATE: foot spoke this morning → flat walks only\, skip this.\n\n📍 Pin: htt
+ ps://www.google.com/maps/search/?api=1&query=Acadia+Mountain+Trailhead%2C
+ +Route+102%2C+Mount+Desert%2C+ME
+LOCATION:Acadia Mountain Trailhead\, Route 102\, Mount Desert\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Acadia+Mountain+Trailh
+ ead%2C+Route+102%2C+Mount+Desert%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-fri-2@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260814T121500
+DTEND;TZID=America/New_York:20260814T124500
+SUMMARY:🏊 Echo Lake soak (10 min) — leg recovery
+DESCRIPTION:Cold freshwater soak\, 5 min from the trailhead. Doubles as mi
+ dday recovery and ticks off Saturday's Echo Lake stop early.\n\n📍 Pin: ht
+ tps://www.google.com/maps/search/?api=1&query=Echo+Lake+Beach%2C+Acadia+N
+ ational+Park%2C+ME
+LOCATION:Echo Lake Beach\, Mount Desert\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Echo+Lake+Beach%2C+Aca
+ dia+National+Park%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-fri-3@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260814T130000
+DTEND;TZID=America/New_York:20260814T143000
+SUMMARY:🍽️ Lunch — Southwest Harbor (legs up)
+DESCRIPTION:Quiet-side town\, no Bar Harbor scrum. Long break is deliberat
+ e: splits the hiking day and rests legs before the Beehive rungs.\n\n📍 Pi
+ n: https://www.google.com/maps/search/?api=1&query=Southwest+Harbor%2C+ME
+LOCATION:Southwest Harbor\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Southwest+Harbor%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-fri-4@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260814T151500
+DTEND;TZID=America/New_York:20260814T163000
+SUMMARY:🧗 Beehive Loop (1.5 mi) — Bowl Trail DOWN
+DESCRIPTION:Rung traffic thins after 3 PM. Up lazy\, descend via Bowl Trai
+ l — NEVER down the rungs. Wet granite = skip. BAIL TRIGGER: if the foot h
+ as said anything today\, skip Beehive — the one stop that can reprice the
+  season.\n\n📍 Pin: https://www.google.com/maps/search/?api=1&query=Beehiv
+ e+Trailhead%2C+Acadia+National+Park%2C+ME
+LOCATION:Beehive Trailhead (Sand Beach parking)\, Acadia National Park\, M
+ E
+URL:https://www.google.com/maps/search/?api=1&query=Beehive+Trailhead%2C+A
+ cadia+National+Park%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-fri-5@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260814T164500
+DTEND;TZID=America/New_York:20260814T174500
+SUMMARY:🌊 Great Head Trail Loop (1.7 mi) — cooldown stroll
+DESCRIPTION:Same parking lot\, zero repositioning. Granite peninsula\, cra
+ shing waves. Stroll pace\, photos not pace.\n\n📍 Pin: https://www.google.
+ com/maps/search/?api=1&query=Sand+Beach%2C+Acadia+National+Park%2C+ME
+LOCATION:Great Head Trail / Sand Beach\, Acadia National Park\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Sand+Beach%2C+Acadia+N
+ ational+Park%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-fri-6@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260814T183000
+DTEND;TZID=America/New_York:20260814T201500
+SUMMARY:🌅 Cadillac Mountain sunset ($6 reservation reqd)
+DESCRIPTION:Entry window ~6:00-6:30 PM booked on Recreation.gov — you can 
+ stay at the summit once in. Sunset ~7:50 PM. Bring layers (windy) + pre-d
+ inner snacks. Zero leg cost.\n\n📍 Pin: https://www.google.com/maps/search
+ /?api=1&query=Cadillac+Mountain+Summit%2C+Acadia+National+Park%2C+ME
+LOCATION:Cadillac Mountain Summit\, Acadia National Park\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Cadillac+Mountain+Summ
+ it%2C+Acadia+National+Park%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-fri-7@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260814T203000
+DTEND;TZID=America/New_York:20260814T220000
+SUMMARY:🦞 Dinner — Bar Harbor (1 beer max\, hydrate)
+DESCRIPTION:Side Street Cafe (mac & cheese / margaritas) or Bar Harbor Bee
+ rworks. Post-sunset seating beats the 7 PM rush. Lay out 4 gels tonight +
+  set the 25-min repeating watch alarm.\n\n📍 Pin: https://www.google.com/m
+ aps/search/?api=1&query=Side+Street+Cafe%2C+Bar+Harbor%2C+ME
+LOCATION:Side Street Cafe\, Bar Harbor\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Side+Street+Cafe%2C+Ba
+ r+Harbor%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-sat-1@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260815T081500
+DTEND;TZID=America/New_York:20260815T084500
+SUMMARY:✅ Foot verdict → bike pickup + gel timer ON
+DESCRIPTION:GO/NO-GO at first steps out of bed: anything talking → run sli
+ des to Sunday at zero cost (decide at breakfast\, not the trailhead). GF 
+ picks up bike\; panniers: 4 gels\, water\, phone. Set repeating 25-min al
+ arm NOW — elapsed time\, never paused.\n\n📍 Pin: https://www.google.com/m
+ aps/search/?api=1&query=Bar+Harbor+Bicycle+Shop%2C+Bar+Harbor%2C+ME
+LOCATION:Bar Harbor Bicycle Shop\, Bar Harbor\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Bar+Harbor+Bicycle+Sho
+ p%2C+Bar+Harbor%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-sat-2@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260815T110000
+DTEND;TZID=America/New_York:20260815T114500
+SUMMARY:🚲 Return bike + recovery snack (within 30 min)
+DESCRIPTION:Return bike in town\, swim tote already in trunk. Eat somethin
+ g real within 30 min of finishing — popovers are the second course.\n\n📍 
+ Pin: https://www.google.com/maps/search/?api=1&query=Bar+Harbor+Bicycle+S
+ hop%2C+Bar+Harbor%2C+ME
+LOCATION:Bar Harbor Bicycle Shop\, Bar Harbor\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Bar+Harbor+Bicycle+Sho
+ p%2C+Bar+Harbor%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-sat-3@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260815T120000
+DTEND;TZID=America/New_York:20260815T130000
+SUMMARY:🥐 Popovers — Jordan Pond House
+DESCRIPTION:15-20 min down Route 3. Warm popovers\, strawberry jam\, prose
+ cco on the lawn — earned. Carryout window if sit-down line is long.\n\n📍 
+ Pin: https://www.google.com/maps/search/?api=1&query=Jordan+Pond+House%2C
+ +Acadia+National+Park%2C+ME
+LOCATION:Jordan Pond House\, Acadia National Park\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Jordan+Pond+House%2C+A
+ cadia+National+Park%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-sat-4@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260815T131500
+DTEND;TZID=America/New_York:20260815T134500
+SUMMARY:🥶 Sand Beach cold plunge (3-5 min\, ~55°F)
+DESCRIPTION:10 min from Jordan Pond House. Post-easy-run cold water is pur
+ e recovery — week 17 (55 km) starts Monday.\n\n📍 Pin: https://www.google.
+ com/maps/search/?api=1&query=Sand+Beach%2C+Acadia+National+Park%2C+ME
+LOCATION:Sand Beach\, Acadia National Park\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Sand+Beach%2C+Acadia+N
+ ational+Park%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-sat-5@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260815T141500
+DTEND;TZID=America/New_York:20260815T150000
+SUMMARY:🏊 Echo Lake rinse + change (optional if done Fri)
+DESCRIPTION:Freshwater rinse\, bathhouse changing rooms\, into evening clo
+ thes.\n\n📍 Pin: https://www.google.com/maps/search/?api=1&query=Echo+Lake
+ +Beach%2C+Acadia+National+Park%2C+ME
+LOCATION:Echo Lake Beach\, Mount Desert\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Echo+Lake+Beach%2C+Aca
+ dia+National+Park%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:acadia-sat-6@nyc-marathon-2026
+DTSTAMP:20260813T200000Z
+DTSTART;TZID=America/New_York:20260815T153000
+DTEND;TZID=America/New_York:20260815T173000
+SUMMARY:🦞 Bar Harbor celebration — week 16 closed at 51 km
+DESCRIPTION:Lobster rolls\, craft beer\, dessert. Ramp-compliant\, fueling
+  rehearsal #2 banked. Sunday = walking pace only\; week 17 opens Monday w
+ ith a MODEST club Tuesday (threshold already banked).\n\n📍 Pin: https://w
+ ww.google.com/maps/search/?api=1&query=Bar+Harbor%2C+ME
+LOCATION:Bar Harbor\, ME
+URL:https://www.google.com/maps/search/?api=1&query=Bar+Harbor%2C+ME
+CATEGORIES:Training,AcadiaItinerary
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-sat-v2@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;TZID=America/New_York:20260926T080000
+DTEND;TZID=America/New_York:20260926T101500
+SUMMARY:🏃 18 km — Easy long-ish (ceiling 20)
+DESCRIPTION:Easy\, flat\, HR <=148. Third run back after 6 days of hiking 
+ - treat it as such. No quality\, no strides\, no finish.\n\n18 IS THE NUM
+ BER. 20 only if Gate 3 passed clean AND Wed jog test + Thu 8 km were both
+  silent. You asked for 28 here - declined: this would be your 3rd run bac
+ k (6 -> 8 -> 28)\, quads need 7-14 days to repair ~10\,000 m of eccentric
+  descent\, and a big run here costs the 32 on 3 Oct. You already did the 
+ step-up run - it was the 29 on 5 Sep.\n\nSuperblast. Rebels may return AF
+ TER this week if the ankle stayed silent.\n\nPace key: E 5:35-5:55/km | M
+ P 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=1
+ 48\, LR ceiling 154
+CATEGORIES:Training,LongRun
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:wk22-sun-v2@nyc-marathon-2026
+DTSTAMP:20260909T120000Z
+SEQUENCE:6
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:💤 Rest — TT logistics due
+DESCRIPTION:Rest.\n\nHM RACE IS OFF - replaced by a solo paced time trial 
+ Sun 11 Oct (decided 9 Sep). No Staten Island entry needed\, no Hartford d
+ rive.\n\nSORT TODAY: (1) confirm GF + bike for 11 Oct\, (2) lock the cour
+ se - Hudson River Greenway out-and-back\, flat\, minimal crossings\, (3) 
+ start watching the 10-day forecast for T+D.
+CATEGORIES:Training,Rest
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

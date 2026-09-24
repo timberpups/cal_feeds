@@ -1,0 +1,890 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Richard Chen//Gym Program 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Gym Program 2026
+X-WR-CALDESC:Full-body gym program - hike prep (Sep 1-10)\, 5-day hike Se
+ p 11-18\, then 8-week muscle-density + posture build. 2x/week (Tue/Thu) 
+ + optional Sat. 45-min sessions.
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:prep-wk1@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260901T090000
+DTEND;TZID=America/New_York:20260901T091500
+SUMMARY:🎯 Week of Sep 1 - HIKE PREP (2 sessions + optional Sat)
+DESCRIPTION:Goal this week: build a little trail durability WITHOUT getti
+ ng sore. Step-ups\, calf work\, posterior chain\, core\, balance\, and s
+ hort incline-walk finishers. Moderate loads only - the hike on Sep 11 is
+  the priority\, not gym PRs.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260901T180000
+DTEND;TZID=America/New_York:20260901T184500
+SUMMARY:🏋️ Gym - Hike Prep A (legs + posture)
+DESCRIPTION:HIKE-PREP A - legs + posture\, MODERATE loads (goal is trail 
+ durability\, NOT soreness). ~45 min:\n1. Goblet squat 3x10 (hold a dumbb
+ ell at your chest\; sit between your hips\, chest tall)\n2. Dumbbell ste
+ p-up 3x8/leg onto a knee-height box (THE uphill-hiking move - drive thro
+ ugh the top foot\, control the way down)\n3. Seated cable row 3x12 (post
+ ure: pull to your belly\, squeeze the shoulder blades)\n4. Standing calf
+  raise 3x15 (protects Achilles/calves on long descents\; pause 1s at the
+  top)\n5. Plank 3x30s + side plank 2x20s/side (a strong core carries the
+  daypack)\n6. Single-leg balance 3x30s/leg\, eyes forward (ankle stabili
+ ty for uneven trail)\n\nFINISHER: 5-8 min incline treadmill walk @ 10-12
+ % grade\, brisk. This is your hike simulator.\n\nWARM-UP (5 min): inclin
+ e treadmill walk or bike\, then leg swings\, arm circles\, 10 band pull-
+ aparts + 5 bodyweight squats to wake up glutes/upper back.\n\nPOSTURE CU
+ E (all day\, not just gym): ribs down\, shoulders back-and-down\, crown 
+ of head tall. On every row/pulldown\, squeeze shoulder blades together a
+ nd DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260903T180000
+DTEND;TZID=America/New_York:20260903T184500
+SUMMARY:🏋️ Gym - Hike Prep B (posterior chain + posture)
+DESCRIPTION:HIKE-PREP B - posterior chain + descents + posture\, MODERATE
+ . ~45 min:\n1. Dumbbell Romanian deadlift 3x10 (hinge at the hips\, flat
+  back\, feel the hamstring stretch - builds glutes/hamstrings AND straig
+ htens posture)\n2. Reverse lunge 3x8/leg (step BACKWARD - easier on the 
+ knees than forward lunges\; single-leg strength for climbing)\n3. Lat pu
+ lldown 3x10 (posture: pull the bar to your collarbone\, elbows down)\n4.
+  Face pulls 3x15 (the #1 posture exercise - rope to your forehead\, elbo
+ ws high\, squeeze rear shoulders)\n5. Controlled step-down 2x8/leg off a
+  LOW step ~20cm (teaches the knees to absorb downhill - keep it light\, 
+ hike is close)\n6. Dead bug 3x10/side (core that protects your lower bac
+ k)\n\nFINISHER: 5 min easy incline walk.\n\nWARM-UP (5 min): incline tre
+ admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
+ s + 5 bodyweight squats to wake up glutes/upper back.\n\nPOSTURE CUE (al
+ l day\, not just gym): ribs down\, shoulders back-and-down\, crown of he
+ ad tall. On every row/pulldown\, squeeze shoulder blades together and DO
+ WN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T104500
+SUMMARY:🏋️ Optional - Hike sim (easy)
+DESCRIPTION:OPTIONAL easy session (skip if busy). ~30 min:\n- 20-25 min s
+ teady incline treadmill @ 8-12% OR stairmaster (rehearse continuous clim
+ bing)\n- Then light full-body mobility: hips\, ankles\, thoracic open-bo
+ oks.\nEasy effort - you should finish feeling loosened up\, not tired.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-wk2@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260908T090000
+DTEND;TZID=America/New_York:20260908T091500
+SUMMARY:🎯 Week of Sep 8 - TAPER INTO HIKE
+DESCRIPTION:One moderate primer Tuesday\, then mobility-only Thursday\, t
+ hen HIKE Fri Sep 11. Arrive at the trailhead fresh and springy - if unsu
+ re\, do less.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-primer@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260908T180000
+DTEND;TZID=America/New_York:20260908T184500
+SUMMARY:🏋️ Gym - Prep Primer (last real session)
+DESCRIPTION:HIKE-PREP PRIMER - last real session before the hike (moderat
+ e\, NO new soreness). ~40 min:\n1. Goblet squat 2x10 (moderate)\n2. Dumb
+ bell step-up 3x8/leg\, knee-height box (rehearse the hiking pattern)\n3.
+  Seated cable row 2x12 (posture)\n4. Standing calf raise 3x15\n5. Single
+ -leg balance 3x30s/leg + Pallof press or plank 2x30s (trail-ready core)\
+ n6. FINISHER: 8-10 min incline walk @ 10-12%\, steady.\n\nKeep everythin
+ g at a weight you could do 2-3 more reps with. You want to arrive at the
+  trailhead fresh and springy\, not sore. If in doubt\, do less.\n\nWARM-
+ UP (5 min): incline treadmill walk or bike\, then leg swings\, arm circl
+ es\, 10 band pull-aparts + 5 bodyweight squats to wake up glutes/upper b
+ ack.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:prep-mob@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260910T180000
+DTEND;TZID=America/New_York:20260910T183000
+SUMMARY:🧘 Mobility + activation ONLY (hike tomorrow)
+DESCRIPTION:PRE-HIKE MOBILITY + ACTIVATION ONLY - no loading\, hike start
+ s tomorrow. ~25 min:\n- 5 min easy walk to warm up\n- Glute activation: 
+ banded lateral walks 2x15/side + glute bridges 2x15\n- Ankle mobility: k
+ nee-to-wall 2x10/side (crucial for downhill)\n- Hips: couch stretch 2x60
+ s/side\, 90/90 hip switches 2 min\, world's greatest stretch 5/side\n- T
+ horacic (upper back): open-book 2x8/side + cat-cow 10 (undo the desk rou
+ nding before days of pack-carrying)\n- Calves: standing calf stretch 2x4
+ 5s/side\n\nThen STOP. No lifting. Pack tonight: broken-in boots\, poles\
+ , layers\, blister plasters\, snacks.
+CATEGORIES:Fitness,Mobility
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:hike-block@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260919
+SUMMARY:🥾 5-DAY HIKE (this is your training block)
+DESCRIPTION:This 5-day hut-to-hut hike is your big aerobic + leg-durabili
+ ty block - the yoga/pilates flexibility and the last 2 weeks of step-ups
+ /calf work were all prep for THIS.\n\nON-TRAIL PLAYBOOK:\n- POLES on eve
+ ry descent - they unload your quads and knees by ~15-20%. Biggest single
+  win.\n- Downhill technique: short quick steps\, land softly under your 
+ hips\, 'soft knees - absorb\, don't brake'. Descents (not climbs) are wh
+ at make legs sore - control them.\n- Pace the climbs so you can still ta
+ lk. Steady all day beats fast-then-cooked.\n- Eat little and often: aim 
+ for a snack every ~1-1.5 h. Don't wait until you're hungry.\n- Protein a
+ t each hut dinner + a handful of nuts/jerky through the day helps legs r
+ ecover overnight.\n- Feet: tape hot-spots BEFORE they blister\, dry sock
+ s at lunch\, air feet at breaks.\n- Posture with a pack: hip belt takes 
+ the weight\, shoulders relaxed back - don't hunch into the straps.\n\nNo
+  gym this week. Enjoy it - this is the reward.
+CATEGORIES:Fitness,Hike
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk1-focus@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260921T090000
+DTEND;TZID=America/New_York:20260921T091500
+SUMMARY:🎯 Build Week 1 (RE-ENTRY)
+DESCRIPTION:Ease back in after the hike: 2 sets\, moderate loads. Rebuild
+  the habit.\n\nTue = Session A (quad-focus). Thu = Session B (hinge/pull
+ ). Sat = optional accessories + conditioning.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk1-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260922T180000
+DTEND;TZID=America/New_York:20260922T184500
+SUMMARY:🏋️ Gym - Build A (legs + posture)
+DESCRIPTION:RE-ENTRY WEEK: first week back after the hike. Do only 2 sets
+  of each exercise (not 3)\, moderate weights\, and skip the finisher if 
+ legs feel worked. Ease in - the hike was a big load.\n\nBUILD A - full b
+ ody (quad-focus) + posture. ~45 min:\n1. Goblet or barbell back squat 3x
+ 8-10 (primary leg builder\; chest tall\, sit between the hips)\n2. Dumbb
+ ell bench press or chest-press machine 3x10 (pushing strength)\n3. Seate
+ d cable row 3x10-12 (mid-back thickness - the anti-slouch muscle\; squee
+ ze blades together)\n4. Reverse or walking lunge 3x10/leg (single-leg st
+ rength + glutes)\n5. Face pulls 3x15 (rear delts/upper back - posture)\n
+ 6. Hanging knee raise or lying leg raise 3x12 + 30s plank (core)\n\nFINI
+ SHER (optional\, 5 min): incline walk or 2 rounds farmer carry 40m.\n\nW
+ ARM-UP (5 min): incline treadmill walk or bike\, then leg swings\, arm c
+ ircles\, 10 band pull-aparts + 5 bodyweight squats to wake up glutes/upp
+ er back.\n\nPROGRESS: when you hit the TOP of the rep range on all sets 
+ with good form\, add a little weight next time. Log your weights - beati
+ ng last week IS the program.\n\nPOSTURE CUE (all day\, not just gym): ri
+ bs down\, shoulders back-and-down\, crown of head tall. On every row/pul
+ ldown\, squeeze shoulder blades together and DOWN - that's the rounded-b
+ ack fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk1-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260924T180000
+DTEND;TZID=America/New_York:20260924T184500
+SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
+DESCRIPTION:RE-ENTRY WEEK: first week back after the hike. Do only 2 sets
+  of each exercise (not 3)\, moderate weights\, and skip the finisher if 
+ legs feel worked. Ease in - the hike was a big load.\n\nBUILD B - full b
+ ody (hinge/pull-focus) + posture. ~45 min:\n1. Dumbbell or barbell Roman
+ ian deadlift 3x8-10 (glutes/hamstrings + the strongest posture builder)\
+ n2. Lat pulldown or assisted pull-up 3x8-10 (back width\; pull elbows to
+  your ribs)\n3. Dumbbell shoulder press 3x10 (shoulders - capped delts a
+ dd upper-body 'density')\n4. Hip thrust 3x10 (glute size + strength\; pa
+ use and squeeze at the top)\n5. Band pull-aparts or rear-delt fly 3x15 (
+ upper-back posture volume)\n6. Pallof press 3x12/side or side plank 3x30
+ s/side (anti-rotation core)\n\nFINISHER (optional\, 5 min): incline walk
+  or step-ups.\n\nWARM-UP (5 min): incline treadmill walk or bike\, then 
+ leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight squats to 
+ wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of the rep 
+ range on all sets with good form\, add a little weight next time. Log yo
+ ur weights - beating last week IS the program.\n\nPOSTURE CUE (all day\,
+  not just gym): ribs down\, shoulders back-and-down\, crown of head tall
+ . On every row/pulldown\, squeeze shoulder blades together and DOWN - th
+ at's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk1-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T104500
+SUMMARY:🏋️ Optional - Build C (accessories + cardio)
+DESCRIPTION:RE-ENTRY WEEK: first week back after the hike. Do only 2 sets
+  of each exercise (not 3)\, moderate weights\, and skip the finisher if 
+ legs feel worked. Ease in - the hike was a big load.\n\nOPTIONAL 3rd ses
+ sion - accessories + conditioning (skip guilt-free on a busy week). ~40 
+ min:\n1. Bulgarian split squat 3x8/leg (single-leg strength + balance)\n
+ 2. Chest-supported dumbbell row 3x12 (pure back/posture\, no lower-back 
+ fatigue)\n3. Dumbbell curl 3x12 + triceps pushdown 3x12 (arms - optional
+  'vanity'\, totally fine)\n4. Standing calf raise 3x15 + hanging/lying l
+ eg raise 3x12\n5. CONDITIONING FINISHER (10-15 min): incline treadmill @
+  10-12%\, OR stairmaster\, OR 3-4 rounds of 40s step-ups / 20s rest. Kee
+ ps the hiking engine ticking.\n\nWARM-UP (5 min): incline treadmill walk
+  or bike\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyw
+ eight squats to wake up glutes/upper back.\n\nPOSTURE CUE (all day\, not
+  just gym): ribs down\, shoulders back-and-down\, crown of head tall. On
+  every row/pulldown\, squeeze shoulder blades together and DOWN - that's
+  the rounded-back fix.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk2-focus@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260928T090000
+DTEND;TZID=America/New_York:20260928T091500
+SUMMARY:🎯 Build Week 2 (Build)
+DESCRIPTION:Back to full sessions: 3 sets\, chase form then load.\n\nTue 
+ = Session A (quad-focus). Thu = Session B (hinge/pull). Sat = optional a
+ ccessories + conditioning.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk2-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20260929T180000
+DTEND;TZID=America/New_York:20260929T184500
+SUMMARY:🏋️ Gym - Build A (legs + posture)
+DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
+ et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
+ between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
+ pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
+  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
+ nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
+ lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
+  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
+ unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
+ e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
+ quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
+  the rep range on all sets with good form\, add a little weight next tim
+ e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
+ all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
+ head tall. On every row/pulldown\, squeeze shoulder blades together and 
+ DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk2-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261001T180000
+DTEND;TZID=America/New_York:20261001T184500
+SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
+DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
+ . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
+ strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
+ back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
+ (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
+ (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
+ rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
+ x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
+ onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
+ admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
+ s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
+ you hit the TOP of the rep range on all sets with good form\, add a litt
+ le weight next time. Log your weights - beating last week IS the program
+ .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
+ d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
+ ades together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk2-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T104500
+SUMMARY:🏋️ Optional - Build C (accessories + cardio)
+DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
+ -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
+ e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
+ ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
+ hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
+ aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
+ 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
+ 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
+ in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
+  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
+ nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
+ wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
+  together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk3-focus@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261005T090000
+DTEND;TZID=America/New_York:20261005T091500
+SUMMARY:🎯 Build Week 3 (Build)
+DESCRIPTION:Add a rep or a little weight where last week felt easy.\n\nTu
+ e = Session A (quad-focus). Thu = Session B (hinge/pull). Sat = optional
+  accessories + conditioning.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk3-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261006T180000
+DTEND;TZID=America/New_York:20261006T184500
+SUMMARY:🏋️ Gym - Build A (legs + posture)
+DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
+ et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
+ between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
+ pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
+  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
+ nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
+ lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
+  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
+ unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
+ e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
+ quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
+  the rep range on all sets with good form\, add a little weight next tim
+ e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
+ all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
+ head tall. On every row/pulldown\, squeeze shoulder blades together and 
+ DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk3-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261008T180000
+DTEND;TZID=America/New_York:20261008T184500
+SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
+DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
+ . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
+ strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
+ back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
+ (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
+ (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
+ rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
+ x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
+ onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
+ admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
+ s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
+ you hit the TOP of the rep range on all sets with good form\, add a litt
+ le weight next time. Log your weights - beating last week IS the program
+ .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
+ d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
+ ades together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk3-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T104500
+SUMMARY:🏋️ Optional - Build C (accessories + cardio)
+DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
+ -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
+ e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
+ ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
+ hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
+ aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
+ 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
+ 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
+ in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
+  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
+ nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
+ wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
+  together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk4-focus@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261012T090000
+DTEND;TZID=America/New_York:20261012T091500
+SUMMARY:🎯 Build Week 4 (Build)
+DESCRIPTION:Strongest week of the block so far - push the top sets (leave
+  1-2 reps in the tank).\n\nTue = Session A (quad-focus). Thu = Session B
+  (hinge/pull). Sat = optional accessories + conditioning.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk4-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261013T180000
+DTEND;TZID=America/New_York:20261013T184500
+SUMMARY:🏋️ Gym - Build A (legs + posture)
+DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
+ et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
+ between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
+ pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
+  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
+ nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
+ lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
+  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
+ unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
+ e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
+ quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
+  the rep range on all sets with good form\, add a little weight next tim
+ e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
+ all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
+ head tall. On every row/pulldown\, squeeze shoulder blades together and 
+ DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk4-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T184500
+SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
+DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
+ . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
+ strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
+ back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
+ (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
+ (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
+ rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
+ x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
+ onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
+ admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
+ s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
+ you hit the TOP of the rep range on all sets with good form\, add a litt
+ le weight next time. Log your weights - beating last week IS the program
+ .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
+ d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
+ ades together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk4-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T104500
+SUMMARY:🏋️ Optional - Build C (accessories + cardio)
+DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
+ -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
+ e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
+ ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
+ hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
+ aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
+ 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
+ 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
+ in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
+  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
+ nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
+ wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
+  together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk5-focus@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261019T090000
+DTEND;TZID=America/New_York:20261019T091500
+SUMMARY:🎯 Build Week 5 (DELOAD)
+DESCRIPTION:Planned recovery week - lighter loads\, 2 sets. Let the work 
+ sink in.\n\nTue = Session A (quad-focus). Thu = Session B (hinge/pull). 
+ Sat = optional accessories + conditioning.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk5-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261020T180000
+DTEND;TZID=America/New_York:20261020T184500
+SUMMARY:🏋️ Gym - Build A (legs + posture)
+DESCRIPTION:DELOAD WEEK: drop to 2 sets and about 60% of your usual weigh
+ t. This is planned recovery so your body absorbs the last 4 weeks of wor
+ k - you'll come back stronger. Not optional\, not a week off.\n\nBUILD A
+  - full body (quad-focus) + posture. ~45 min:\n1. Goblet or barbell back
+  squat 3x8-10 (primary leg builder\; chest tall\, sit between the hips)\
+ n2. Dumbbell bench press or chest-press machine 3x10 (pushing strength)\
+ n3. Seated cable row 3x10-12 (mid-back thickness - the anti-slouch muscl
+ e\; squeeze blades together)\n4. Reverse or walking lunge 3x10/leg (sing
+ le-leg strength + glutes)\n5. Face pulls 3x15 (rear delts/upper back - p
+ osture)\n6. Hanging knee raise or lying leg raise 3x12 + 30s plank (core
+ )\n\nFINISHER (optional\, 5 min): incline walk or 2 rounds farmer carry 
+ 40m.\n\nWARM-UP (5 min): incline treadmill walk or bike\, then leg swing
+ s\, arm circles\, 10 band pull-aparts + 5 bodyweight squats to wake up g
+ lutes/upper back.\n\nPROGRESS: when you hit the TOP of the rep range on 
+ all sets with good form\, add a little weight next time. Log your weight
+ s - beating last week IS the program.\n\nPOSTURE CUE (all day\, not just
+  gym): ribs down\, shoulders back-and-down\, crown of head tall. On ever
+ y row/pulldown\, squeeze shoulder blades together and DOWN - that's the 
+ rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk5-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261022T180000
+DTEND;TZID=America/New_York:20261022T184500
+SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
+DESCRIPTION:DELOAD WEEK: drop to 2 sets and about 60% of your usual weigh
+ t. This is planned recovery so your body absorbs the last 4 weeks of wor
+ k - you'll come back stronger. Not optional\, not a week off.\n\nBUILD B
+  - full body (hinge/pull-focus) + posture. ~45 min:\n1. Dumbbell or barb
+ ell Romanian deadlift 3x8-10 (glutes/hamstrings + the strongest posture 
+ builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (back width\; pull 
+ elbows to your ribs)\n3. Dumbbell shoulder press 3x10 (shoulders - cappe
+ d delts add upper-body 'density')\n4. Hip thrust 3x10 (glute size + stre
+ ngth\; pause and squeeze at the top)\n5. Band pull-aparts or rear-delt f
+ ly 3x15 (upper-back posture volume)\n6. Pallof press 3x12/side or side p
+ lank 3x30s/side (anti-rotation core)\n\nFINISHER (optional\, 5 min): inc
+ line walk or step-ups.\n\nWARM-UP (5 min): incline treadmill walk or bik
+ e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
+ quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
+  the rep range on all sets with good form\, add a little weight next tim
+ e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
+ all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
+ head tall. On every row/pulldown\, squeeze shoulder blades together and 
+ DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk5-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T104500
+SUMMARY:🏋️ Optional - Build C (accessories + cardio)
+DESCRIPTION:DELOAD WEEK: drop to 2 sets and about 60% of your usual weigh
+ t. This is planned recovery so your body absorbs the last 4 weeks of wor
+ k - you'll come back stronger. Not optional\, not a week off.\n\nOPTIONA
+ L 3rd session - accessories + conditioning (skip guilt-free on a busy we
+ ek). ~40 min:\n1. Bulgarian split squat 3x8/leg (single-leg strength + b
+ alance)\n2. Chest-supported dumbbell row 3x12 (pure back/posture\, no lo
+ wer-back fatigue)\n3. Dumbbell curl 3x12 + triceps pushdown 3x12 (arms -
+  optional 'vanity'\, totally fine)\n4. Standing calf raise 3x15 + hangin
+ g/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-15 min): incline tr
+ eadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 40s step-ups / 20s 
+ rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 min): incline tread
+ mill walk or bike\, then leg swings\, arm circles\, 10 band pull-aparts 
+ + 5 bodyweight squats to wake up glutes/upper back.\n\nPOSTURE CUE (all 
+ day\, not just gym): ribs down\, shoulders back-and-down\, crown of head
+  tall. On every row/pulldown\, squeeze shoulder blades together and DOWN
+  - that's the rounded-back fix.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk6-focus@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261026T090000
+DTEND;TZID=America/New_York:20261026T091500
+SUMMARY:🎯 Build Week 6 (Build)
+DESCRIPTION:Fresh off the deload - expect to feel strong. Reset your rep 
+ targets a notch higher.\n\nTue = Session A (quad-focus). Thu = Session B
+  (hinge/pull). Sat = optional accessories + conditioning.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk6-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261027T180000
+DTEND;TZID=America/New_York:20261027T184500
+SUMMARY:🏋️ Gym - Build A (legs + posture)
+DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
+ et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
+ between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
+ pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
+  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
+ nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
+ lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
+  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
+ unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
+ e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
+ quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
+  the rep range on all sets with good form\, add a little weight next tim
+ e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
+ all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
+ head tall. On every row/pulldown\, squeeze shoulder blades together and 
+ DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk6-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T184500
+SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
+DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
+ . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
+ strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
+ back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
+ (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
+ (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
+ rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
+ x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
+ onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
+ admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
+ s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
+ you hit the TOP of the rep range on all sets with good form\, add a litt
+ le weight next time. Log your weights - beating last week IS the program
+ .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
+ d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
+ ades together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk6-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261031T100000
+DTEND;TZID=America/New_York:20261031T104500
+SUMMARY:🏋️ Optional - Build C (accessories + cardio)
+DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
+ -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
+ e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
+ ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
+ hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
+ aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
+ 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
+ 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
+ in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
+  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
+ nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
+ wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
+  together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk7-focus@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261102T090000
+DTEND;TZID=America/New_York:20261102T091500
+SUMMARY:🎯 Build Week 7 (Build)
+DESCRIPTION:Keep adding small increments. Density is built one rep/plate 
+ at a time.\n\nTue = Session A (quad-focus). Thu = Session B (hinge/pull)
+ . Sat = optional accessories + conditioning.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk7-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261103T180000
+DTEND;TZID=America/New_York:20261103T184500
+SUMMARY:🏋️ Gym - Build A (legs + posture)
+DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
+ et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
+ between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
+ pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
+  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
+ nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
+ lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
+  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
+ unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
+ e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
+ quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
+  the rep range on all sets with good form\, add a little weight next tim
+ e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
+ all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
+ head tall. On every row/pulldown\, squeeze shoulder blades together and 
+ DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk7-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261105T180000
+DTEND;TZID=America/New_York:20261105T184500
+SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
+DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
+ . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
+ strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
+ back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
+ (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
+ (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
+ rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
+ x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
+ onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
+ admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
+ s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
+ you hit the TOP of the rep range on all sets with good form\, add a litt
+ le weight next time. Log your weights - beating last week IS the program
+ .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
+ d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
+ ades together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk7-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261107T100000
+DTEND;TZID=America/New_York:20261107T104500
+SUMMARY:🏋️ Optional - Build C (accessories + cardio)
+DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
+ -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
+ e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
+ ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
+ hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
+ aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
+ 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
+ 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
+ in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
+  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
+ nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
+ wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
+  together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk8-focus@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261109T090000
+DTEND;TZID=America/New_York:20261109T091500
+SUMMARY:🎯 Build Week 8 (Build)
+DESCRIPTION:Final week of the block. Then repeat with heavier starting we
+ ights\, or ask Richard to extend it.\n\nTue = Session A (quad-focus). Th
+ u = Session B (hinge/pull). Sat = optional accessories + conditioning.
+CATEGORIES:Fitness,WeekFocus
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk8-a@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261110T180000
+DTEND;TZID=America/New_York:20261110T184500
+SUMMARY:🏋️ Gym - Build A (legs + posture)
+DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
+ et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
+ between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
+ pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
+  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
+ nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
+ lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
+  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
+ unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
+ e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
+ quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
+  the rep range on all sets with good form\, add a little weight next tim
+ e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
+ all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
+ head tall. On every row/pulldown\, squeeze shoulder blades together and 
+ DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk8-b@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261112T180000
+DTEND;TZID=America/New_York:20261112T184500
+SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
+DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
+ . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
+ strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
+ back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
+ (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
+ (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
+ rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
+ x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
+ onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
+ admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
+ s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
+ you hit the TOP of the rep range on all sets with good form\, add a litt
+ le weight next time. Log your weights - beating last week IS the program
+ .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
+ d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
+ ades together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:build-wk8-c@gym-program-2026
+DTSTAMP:20260829T120000Z
+SEQUENCE:0
+DTSTART;TZID=America/New_York:20261114T100000
+DTEND;TZID=America/New_York:20261114T104500
+SUMMARY:🏋️ Optional - Build C (accessories + cardio)
+DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
+ -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
+ e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
+ ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
+ hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
+ aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
+ 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
+ 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
+ in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
+  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
+ nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
+ wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
+  together and DOWN - that's the rounded-back fix.
+CATEGORIES:Fitness,Optional
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
