@@ -11,18 +11,33 @@ Training calendars, published as iCalendar (`.ics`) feeds.
 | `nyc_marathon_2026.ics` | NYC Marathon 2026 training plan | 247 |
 | `gym_program_2026.ics` | Gym program 2026 — hike prep + 8-week build | 40 |
 
+## Repository roles
+
+- `timberpups/cal_feeds` is the private working repository. Edit calendars here,
+  in `/Users/richardchen/Documents/cal_feeds`.
+- `timberpups/cal-feeds-public` publishes the ICS files for calendar subscriptions.
+  Keep this repository public and preserve its filenames and URLs.
+- Career records and résumés live separately in `timberpups/career`.
+
+The private repository is the source of truth. After committing and pushing
+calendar updates here, run `python3 publish_feeds.py` to publish the tracked
+root-level ICS files. Use `python3 publish_feeds.py --dry-run` to preview changes.
+The publisher uses a temporary checkout; no second permanent working folder is
+needed. It copies only ICS files and generates a public subscription README.
+Review calendar contents before publishing: all published event details are
+publicly accessible. Keep private booking or personal details outside these feeds.
+
 ## Subscribing
 
-Subscribe to the raw file URL in your calendar app (Apple Calendar:
-File → New Calendar Subscription; Google Calendar: Other calendars →
-From URL):
+In Google Calendar, choose Other calendars → From URL and add each feed you want:
 
-```
-https://raw.githubusercontent.com/timberpups/cal_feeds/main/nyc_marathon_2026.ics
-```
+- [NYC Marathon 2026](https://raw.githubusercontent.com/timberpups/cal-feeds-public/main/nyc_marathon_2026.ics)
+- [Gym program 2026](https://raw.githubusercontent.com/timberpups/cal-feeds-public/main/gym_program_2026.ics)
 
-Note: subscription refresh requires the repo to be **public**. If the repo is
-private, download the `.ics` and import it manually instead.
+Existing subscriptions to these public URLs continue to work. New feeds require
+a new subscription. Google Calendar controls refresh timing; publication may
+not appear immediately on your phone. URLs from the private `cal_feeds`
+repository are not suitable for unauthenticated calendar subscriptions.
 
 ## Marathon update — October 5, 2026
 

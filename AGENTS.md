@@ -2,7 +2,7 @@
 
 ## Purpose and user preference
 
-This repository is the user's home for published iCalendar (`.ics`) feeds.
+This private repository is the user's working source for iCalendar (`.ics`) feeds.
 The user refers to it as `/documents/cal_feeds`; its current local path is
 `/Users/richardchen/Documents/cal_feeds`.
 
@@ -37,3 +37,16 @@ must subscribe to it in Google Calendar unless an existing subscription is
 confirmed. Do not assume that Google Calendar automatically discovers new ICS
 files. Existing subscribed feeds refresh according to the calendar service's
 schedule, so changes may not appear immediately on the phone.
+
+## Repository roles and publication workflow
+
+- Edit calendars only in `/Users/richardchen/Documents/cal_feeds`.
+- `origin` points to private `timberpups/cal_feeds`.
+- `public` points to public `timberpups/cal-feeds-public`.
+- Commit and push source changes to `origin`, then run `python3 publish_feeds.py`
+  when publication is authorized. Use `--dry-run` to inspect pending changes.
+- The script publishes tracked root-level ICS files and a generated README only.
+  Keep scripts, context files, career records, and private notes in private repos.
+- Subscription URLs must use `cal-feeds-public`, not private `cal_feeds`.
+- Preserve the existing public repository name and feed filenames to retain
+  calendar subscriptions. Career lives separately in `Documents/career`.
