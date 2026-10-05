@@ -29,3 +29,17 @@ private, download the `.ics` and import it manually instead.
 `career/career-record-richard-chen.md` — sanitized record of my work history.
 Client names, company financials, internal quotes and unreleased strategy are excluded;
 see the final section of that file for the full exclusion list.
+
+## Marathon update — October 5, 2026
+
+The NYC feed now uses Staten Island Half on Sunday, October 11, with a reduced
+race-week workload and recovery-led taper. The provisional NYC goal is about
+3:35; 3:25–3:30 depends on the half, conditions, recovery and endurance evidence.
+Conflicting October gym build sessions are replaced by rest/mobility until NYC.
+Summer pace is interpreted with temperature, humidity/dew point, wind and route
+context; no automatic heat correction is applied. October 17 is now an optional
+20–24 km rehearsal with at most 6–8 km at marathon pace if fully recovered.
+
+Existing event UIDs are retained and revision metadata incremented, so calendar
+subscriptions can update the existing entries. Refresh timing depends on the
+calendar app. Historical training entries remain as the original plan.

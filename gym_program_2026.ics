@@ -352,364 +352,255 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk3-focus@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261005T090000
 DTEND;TZID=America/New_York:20261005T091500
-SUMMARY:🎯 Build Week 3 (Build)
-DESCRIPTION:Add a rep or a little weight where last week felt easy.\n\nTu
- e = Session A (quad-focus). Thu = Session B (hinge/pull). Sat = optional
-  accessories + conditioning.
+SUMMARY:🎯 Marathon taper — no gym build progression
+DESCRIPTION:NYC Marathon on 1 Nov takes priority over the gym build. Throug
+ h race day: no heavy squats\, lunges\, deadlifts\, eccentric leg work\, ca
+ lf loading or conditioning finishers. Scheduled gym slots are rest or gent
+ le familiar mobility only. Resume the build after marathon recovery\, not
+  automatically on 2 Nov. Follow the NYC feed for the running plan.
 CATEGORIES:Fitness,WeekFocus
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk3-a@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261006T180000
-DTEND;TZID=America/New_York:20261006T184500
-SUMMARY:🏋️ Gym - Build A (legs + posture)
-DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
- et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
- between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
- pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
-  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
- nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
- lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
-  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
- unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
- e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
- quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
-  the rep range on all sets with good form\, add a little weight next tim
- e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
- all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
- head tall. On every row/pulldown\, squeeze shoulder blades together and 
- DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk3-b@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261008T180000
-DTEND;TZID=America/New_York:20261008T184500
-SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
-DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
- . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
- strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
- back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
- (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
- (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
- rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
- x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
- onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
- admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
- s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
- you hit the TOP of the rep range on all sets with good form\, add a litt
- le weight next time. Log your weights - beating last week IS the program
- .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
- d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
- ades together and DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk3-c@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T104500
-SUMMARY:🏋️ Optional - Build C (accessories + cardio)
-DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
- -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
- e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
- ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
- hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
- aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
- 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
- 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
- in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
-  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
- nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
- wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
-  together and DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness,Optional
+DTEND;TZID=America/New_York:20261010T101500
+SUMMARY:💤 Rest — race tomorrow\, skip gym
+DESCRIPTION:No accessories\, leg strength or conditioning today. Follow the
+  NYC feed for optional easy shakeout. Staten Island Half is Sun 11 Oct\; N
+ YC Marathon is Sun 1 Nov.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk4-focus@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261012T090000
 DTEND;TZID=America/New_York:20261012T091500
-SUMMARY:🎯 Build Week 4 (Build)
-DESCRIPTION:Strongest week of the block so far - push the top sets (leave
-  1-2 reps in the tank).\n\nTue = Session A (quad-focus). Thu = Session B
-  (hinge/pull). Sat = optional accessories + conditioning.
+SUMMARY:🎯 Marathon taper — no gym build progression
+DESCRIPTION:NYC Marathon on 1 Nov takes priority over the gym build. Throug
+ h race day: no heavy squats\, lunges\, deadlifts\, eccentric leg work\, ca
+ lf loading or conditioning finishers. Scheduled gym slots are rest or gent
+ le familiar mobility only. Resume the build after marathon recovery\, not
+  automatically on 2 Nov. Follow the NYC feed for the running plan.
 CATEGORIES:Fitness,WeekFocus
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk4-a@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261013T180000
-DTEND;TZID=America/New_York:20261013T184500
-SUMMARY:🏋️ Gym - Build A (legs + posture)
-DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
- et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
- between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
- pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
-  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
- nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
- lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
-  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
- unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
- e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
- quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
-  the rep range on all sets with good form\, add a little weight next tim
- e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
- all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
- head tall. On every row/pulldown\, squeeze shoulder blades together and 
- DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk4-b@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261015T180000
-DTEND;TZID=America/New_York:20261015T184500
-SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
-DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
- . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
- strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
- back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
- (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
- (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
- rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
- x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
- onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
- admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
- s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
- you hit the TOP of the rep range on all sets with good form\, add a litt
- le weight next time. Log your weights - beating last week IS the program
- .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
- d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
- ades together and DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk4-c@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261017T100000
-DTEND;TZID=America/New_York:20261017T104500
-SUMMARY:🏋️ Optional - Build C (accessories + cardio)
-DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
- -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
- e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
- ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
- hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
- aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
- 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
- 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
- in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
-  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
- nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
- wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
-  together and DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness,Optional
+DTEND;TZID=America/New_York:20261017T101500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk5-focus@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261019T090000
 DTEND;TZID=America/New_York:20261019T091500
-SUMMARY:🎯 Build Week 5 (DELOAD)
-DESCRIPTION:Planned recovery week - lighter loads\, 2 sets. Let the work 
- sink in.\n\nTue = Session A (quad-focus). Thu = Session B (hinge/pull). 
- Sat = optional accessories + conditioning.
+SUMMARY:🎯 Marathon taper — no gym build progression
+DESCRIPTION:NYC Marathon on 1 Nov takes priority over the gym build. Throug
+ h race day: no heavy squats\, lunges\, deadlifts\, eccentric leg work\, ca
+ lf loading or conditioning finishers. Scheduled gym slots are rest or gent
+ le familiar mobility only. Resume the build after marathon recovery\, not
+  automatically on 2 Nov. Follow the NYC feed for the running plan.
 CATEGORIES:Fitness,WeekFocus
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk5-a@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261020T180000
-DTEND;TZID=America/New_York:20261020T184500
-SUMMARY:🏋️ Gym - Build A (legs + posture)
-DESCRIPTION:DELOAD WEEK: drop to 2 sets and about 60% of your usual weigh
- t. This is planned recovery so your body absorbs the last 4 weeks of wor
- k - you'll come back stronger. Not optional\, not a week off.\n\nBUILD A
-  - full body (quad-focus) + posture. ~45 min:\n1. Goblet or barbell back
-  squat 3x8-10 (primary leg builder\; chest tall\, sit between the hips)\
- n2. Dumbbell bench press or chest-press machine 3x10 (pushing strength)\
- n3. Seated cable row 3x10-12 (mid-back thickness - the anti-slouch muscl
- e\; squeeze blades together)\n4. Reverse or walking lunge 3x10/leg (sing
- le-leg strength + glutes)\n5. Face pulls 3x15 (rear delts/upper back - p
- osture)\n6. Hanging knee raise or lying leg raise 3x12 + 30s plank (core
- )\n\nFINISHER (optional\, 5 min): incline walk or 2 rounds farmer carry 
- 40m.\n\nWARM-UP (5 min): incline treadmill walk or bike\, then leg swing
- s\, arm circles\, 10 band pull-aparts + 5 bodyweight squats to wake up g
- lutes/upper back.\n\nPROGRESS: when you hit the TOP of the rep range on 
- all sets with good form\, add a little weight next time. Log your weight
- s - beating last week IS the program.\n\nPOSTURE CUE (all day\, not just
-  gym): ribs down\, shoulders back-and-down\, crown of head tall. On ever
- y row/pulldown\, squeeze shoulder blades together and DOWN - that's the 
- rounded-back fix.
-CATEGORIES:Fitness
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk5-b@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261022T180000
-DTEND;TZID=America/New_York:20261022T184500
-SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
-DESCRIPTION:DELOAD WEEK: drop to 2 sets and about 60% of your usual weigh
- t. This is planned recovery so your body absorbs the last 4 weeks of wor
- k - you'll come back stronger. Not optional\, not a week off.\n\nBUILD B
-  - full body (hinge/pull-focus) + posture. ~45 min:\n1. Dumbbell or barb
- ell Romanian deadlift 3x8-10 (glutes/hamstrings + the strongest posture 
- builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (back width\; pull 
- elbows to your ribs)\n3. Dumbbell shoulder press 3x10 (shoulders - cappe
- d delts add upper-body 'density')\n4. Hip thrust 3x10 (glute size + stre
- ngth\; pause and squeeze at the top)\n5. Band pull-aparts or rear-delt f
- ly 3x15 (upper-back posture volume)\n6. Pallof press 3x12/side or side p
- lank 3x30s/side (anti-rotation core)\n\nFINISHER (optional\, 5 min): inc
- line walk or step-ups.\n\nWARM-UP (5 min): incline treadmill walk or bik
- e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
- quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
-  the rep range on all sets with good form\, add a little weight next tim
- e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
- all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
- head tall. On every row/pulldown\, squeeze shoulder blades together and 
- DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk5-c@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261024T100000
-DTEND;TZID=America/New_York:20261024T104500
-SUMMARY:🏋️ Optional - Build C (accessories + cardio)
-DESCRIPTION:DELOAD WEEK: drop to 2 sets and about 60% of your usual weigh
- t. This is planned recovery so your body absorbs the last 4 weeks of wor
- k - you'll come back stronger. Not optional\, not a week off.\n\nOPTIONA
- L 3rd session - accessories + conditioning (skip guilt-free on a busy we
- ek). ~40 min:\n1. Bulgarian split squat 3x8/leg (single-leg strength + b
- alance)\n2. Chest-supported dumbbell row 3x12 (pure back/posture\, no lo
- wer-back fatigue)\n3. Dumbbell curl 3x12 + triceps pushdown 3x12 (arms -
-  optional 'vanity'\, totally fine)\n4. Standing calf raise 3x15 + hangin
- g/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-15 min): incline tr
- eadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 40s step-ups / 20s 
- rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 min): incline tread
- mill walk or bike\, then leg swings\, arm circles\, 10 band pull-aparts 
- + 5 bodyweight squats to wake up glutes/upper back.\n\nPOSTURE CUE (all 
- day\, not just gym): ribs down\, shoulders back-and-down\, crown of head
-  tall. On every row/pulldown\, squeeze shoulder blades together and DOWN
-  - that's the rounded-back fix.
-CATEGORIES:Fitness,Optional
+DTEND;TZID=America/New_York:20261024T101500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk6-focus@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261026T090000
 DTEND;TZID=America/New_York:20261026T091500
-SUMMARY:🎯 Build Week 6 (Build)
-DESCRIPTION:Fresh off the deload - expect to feel strong. Reset your rep 
- targets a notch higher.\n\nTue = Session A (quad-focus). Thu = Session B
-  (hinge/pull). Sat = optional accessories + conditioning.
+SUMMARY:🎯 Marathon taper — no gym build progression
+DESCRIPTION:NYC Marathon on 1 Nov takes priority over the gym build. Throug
+ h race day: no heavy squats\, lunges\, deadlifts\, eccentric leg work\, ca
+ lf loading or conditioning finishers. Scheduled gym slots are rest or gent
+ le familiar mobility only. Resume the build after marathon recovery\, not
+  automatically on 2 Nov. Follow the NYC feed for the running plan.
 CATEGORIES:Fitness,WeekFocus
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk6-a@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261027T180000
-DTEND;TZID=America/New_York:20261027T184500
-SUMMARY:🏋️ Gym - Build A (legs + posture)
-DESCRIPTION:BUILD A - full body (quad-focus) + posture. ~45 min:\n1. Gobl
- et or barbell back squat 3x8-10 (primary leg builder\; chest tall\, sit 
- between the hips)\n2. Dumbbell bench press or chest-press machine 3x10 (
- pushing strength)\n3. Seated cable row 3x10-12 (mid-back thickness - the
-  anti-slouch muscle\; squeeze blades together)\n4. Reverse or walking lu
- nge 3x10/leg (single-leg strength + glutes)\n5. Face pulls 3x15 (rear de
- lts/upper back - posture)\n6. Hanging knee raise or lying leg raise 3x12
-  + 30s plank (core)\n\nFINISHER (optional\, 5 min): incline walk or 2 ro
- unds farmer carry 40m.\n\nWARM-UP (5 min): incline treadmill walk or bik
- e\, then leg swings\, arm circles\, 10 band pull-aparts + 5 bodyweight s
- quats to wake up glutes/upper back.\n\nPROGRESS: when you hit the TOP of
-  the rep range on all sets with good form\, add a little weight next tim
- e. Log your weights - beating last week IS the program.\n\nPOSTURE CUE (
- all day\, not just gym): ribs down\, shoulders back-and-down\, crown of 
- head tall. On every row/pulldown\, squeeze shoulder blades together and 
- DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness
+DTEND;TZID=America/New_York:20261027T181500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk6-b@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261029T180000
-DTEND;TZID=America/New_York:20261029T184500
-SUMMARY:🏋️ Gym - Build B (hinge/pull + posture)
-DESCRIPTION:BUILD B - full body (hinge/pull-focus) + posture. ~45 min:\n1
- . Dumbbell or barbell Romanian deadlift 3x8-10 (glutes/hamstrings + the 
- strongest posture builder)\n2. Lat pulldown or assisted pull-up 3x8-10 (
- back width\; pull elbows to your ribs)\n3. Dumbbell shoulder press 3x10 
- (shoulders - capped delts add upper-body 'density')\n4. Hip thrust 3x10 
- (glute size + strength\; pause and squeeze at the top)\n5. Band pull-apa
- rts or rear-delt fly 3x15 (upper-back posture volume)\n6. Pallof press 3
- x12/side or side plank 3x30s/side (anti-rotation core)\n\nFINISHER (opti
- onal\, 5 min): incline walk or step-ups.\n\nWARM-UP (5 min): incline tre
- admill walk or bike\, then leg swings\, arm circles\, 10 band pull-apart
- s + 5 bodyweight squats to wake up glutes/upper back.\n\nPROGRESS: when 
- you hit the TOP of the rep range on all sets with good form\, add a litt
- le weight next time. Log your weights - beating last week IS the program
- .\n\nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-an
- d-down\, crown of head tall. On every row/pulldown\, squeeze shoulder bl
- ades together and DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness
+DTEND;TZID=America/New_York:20261029T181500
+SUMMARY:🧘 Optional 10-15 min mobility — skip gym build
+DESCRIPTION:Rest is the default if fatigued. Optional gentle familiar mobil
+ ity or light activation only\, stopping before fatigue or soreness. No loa
+ ded leg work\, eccentric work\, incline/stair conditioning or progression.
+  Protect half-marathon recovery and NYC taper\; use the NYC feed as the ru
+ nning plan.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk6-c@gym-program-2026
-DTSTAMP:20260829T120000Z
-SEQUENCE:0
+DTSTAMP:20261005T175048Z
+SEQUENCE:1
 DTSTART;TZID=America/New_York:20261031T100000
-DTEND;TZID=America/New_York:20261031T104500
-SUMMARY:🏋️ Optional - Build C (accessories + cardio)
-DESCRIPTION:OPTIONAL 3rd session - accessories + conditioning (skip guilt
- -free on a busy week). ~40 min:\n1. Bulgarian split squat 3x8/leg (singl
- e-leg strength + balance)\n2. Chest-supported dumbbell row 3x12 (pure ba
- ck/posture\, no lower-back fatigue)\n3. Dumbbell curl 3x12 + triceps pus
- hdown 3x12 (arms - optional 'vanity'\, totally fine)\n4. Standing calf r
- aise 3x15 + hanging/lying leg raise 3x12\n5. CONDITIONING FINISHER (10-1
- 5 min): incline treadmill @ 10-12%\, OR stairmaster\, OR 3-4 rounds of 4
- 0s step-ups / 20s rest. Keeps the hiking engine ticking.\n\nWARM-UP (5 m
- in): incline treadmill walk or bike\, then leg swings\, arm circles\, 10
-  band pull-aparts + 5 bodyweight squats to wake up glutes/upper back.\n\
- nPOSTURE CUE (all day\, not just gym): ribs down\, shoulders back-and-do
- wn\, crown of head tall. On every row/pulldown\, squeeze shoulder blades
-  together and DOWN - that's the rounded-back fix.
-CATEGORIES:Fitness,Optional
+DTEND;TZID=America/New_York:20261031T101500
+SUMMARY:💤 Rest — race tomorrow\, skip gym
+DESCRIPTION:No accessories\, leg strength or conditioning today. Follow the
+  NYC feed for optional easy shakeout. Staten Island Half is Sun 11 Oct\; N
+ YC Marathon is Sun 1 Nov.
+CATEGORIES:Fitness,Rest
 TRANSP:OPAQUE
+LAST-MODIFIED:20261005T175048Z
 END:VEVENT
 BEGIN:VEVENT
 UID:build-wk7-focus@gym-program-2026

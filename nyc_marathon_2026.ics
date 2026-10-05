@@ -4,11 +4,9 @@ PRODID:-//Richard Chen//NYC Marathon 2026//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:NYC Marathon 2026 Training
-X-WR-CALDESC:Richard Chen training plan v2.1 (club Tue/Thu + strength\, 2
- 026-07-25) — 5:00/km plan-of-record\, 3:25 gated. Peak Wk19\, TMB Sep 
- 14-22\, HM gate Oct 11.
- 5:00/km (3:29-3:31) plan-of-record\, 3:25 gated. Peak Wk19\, TMB Sep 14-
- 22\, HM gate Oct 11.
+X-WR-CALDESC:Updated 5 Oct 2026: Staten Island Half Sun 11 Oct\; recovery-l
+ ed taper. NYC provisional ~3:35\, 3:25-3:30 conditional. Evaluate summer r
+ uns and races with observed weather\; no fixed heat correction.
 X-WR-TIMEZONE:America/New_York
 BEGIN:VTIMEZONE
 TZID:America/New_York
@@ -2608,47 +2606,61 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk24-target@nyc-marathon-2026
-DTSTAMP:20260909T120000Z
-SEQUENCE:6
+DTSTAMP:20261005T175059Z
+SEQUENCE:7
 DTSTART;TZID=America/New_York:20261005T060000
 DTEND;TZID=America/New_York:20261005T061500
-SUMMARY:🎯 Wk 24 (HM TT wk) — 56 km / LR 21.1 TT
-DESCRIPTION:SUN 11 OCT = GATE 4\, now a SOLO PACED TIME TRIAL (decided 9 S
- ep - no Staten Island\, no Hartford). Club Tuesday only (race-specific re
- ps). NO CLUB THURSDAY. Tue strength light.\n\nTT ADVANTAGE OVER A RACE: y
- ou can move the day. Primary Sun 11\, alternates Sat 10 or Mon 12 - pick 
- the best T+D in the window. Weather call Wed 7 Oct.\n\nWHY WE KEPT IT: yo
- ur failure mode is execution\, not fitness (Gate 1: HR 188 by km 2 agains
- t a <170 cap). This is the ONLY race-effort rehearsal left before 1 Nov.\
- n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-e
- ff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+SUMMARY:🎯 Wk 24 — Staten Island Half / ~46-52 km incl. completed Monda
+ y
+DESCRIPTION:Sunday 11 Oct: Staten Island Half replaces the solo time trial.
+  Monday 15.01 km already completed after Saturday 30.02 km: reduce remaini
+ ng workload. Tue rest or 4-5 km easy\; Wed rest\; Thu 6 km easy\; Fri rest
+ \; Sat 3 km shakeout\; Sun 21.1 km race plus optional short warmup. No clu
+ b quality or loaded strength.\n\nWEATHER REVIEW: compare temperature\, hum
+ idity/dew point\, wind\, sun exposure and terrain over the actual running
+  window. Use observed hourly conditions where available\; label missing ob
+ servations. No automatic percentage or seconds/km correction. Heat can exp
+ lain slower pace/higher HR\, but cannot replace running consistency. Judge
+  the half by pacing\, finish strength and recovery as well as time.\n\nPac
+ ing: provisional NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recover
+ y and race-day weather. 3:25-3:30 is conditional\; 3:15 is not supported b
+ y current evidence. Easy runs conversational\; slow down for heat/humidity
+ . Existing HR caps are reference points\, not validated physiological zone
+ s.
 CATEGORIES:Training,WeekTarget
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk24-mon@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261005T080000
-DTEND;TZID=America/New_York:20261005T090000
-SUMMARY:🏃 6 km — Easy
-DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
-  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+DTEND;TZID=America/New_York:20261005T091500
+SUMMARY:✅ 15.01 km — Completed (4:45/km)
+DESCRIPTION:Recorded 5 Oct: 15.01 km in 1:11:20 moving\, average HR 143.8 b
+ pm. Original prescription was 6 km easy. Do not add more running today\; a
+ ccount for this extra load in the mini-taper.\n\nPacing: provisional NYC t
+ arget ~3:35 (5:05-5:06/km)\, subject to HM\, recovery and race-day weather
+ . 3:25-3:30 is conditional\; 3:15 is not supported by current evidence. Ea
+ sy runs conversational\; slow down for heat/humidity. Existing HR caps are
+  reference points\, not validated physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk24-tue@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261006T080000
-DTEND;TZID=America/New_York:20261006T091500
-SUMMARY:🏃 10 km — CLUB → 3×2 km @ HM pace
-DESCRIPTION:Do YOUR session at the club: 3×2 km @ ~4:33/km\, 2 min jog. 
- Not their session if it's faster. CLUB RULE: run YOUR paces\, not the gr
- oup's front pod. A tempo that becomes a race costs Saturday's long run.\
- n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-
- eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+DTEND;TZID=America/New_York:20261006T084000
+SUMMARY:💤 Rest or 4-5 km easy — SKIP CLUB
+DESCRIPTION:Default rest after Saturday 30 km and Monday 15 km. If legs fee
+ l recovered\, optional 4-5 km conversational on a flat route. No 3x2 km HM
+  reps or club intervals. Stop for pain or unusual fatigue.\n\nPacing: prov
+ isional NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recovery and rac
+ e-day weather. 3:25-3:30 is conditional\; 3:15 is not supported by current
+  evidence. Easy runs conversational\; slow down for heat/humidity. Existin
+ g HR caps are reference points\, not validated physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
@@ -2665,14 +2677,18 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk24-thu@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261008T080000
-DTEND;TZID=America/New_York:20261008T091500
-SUMMARY:🏃 8 km — Easy + strides (SKIP CLUB)
-DESCRIPTION:No club tempo - HM in 3 days. Easy + 4×20s strides\n\nPace k
- ey: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\
- nHR caps: easy/long <=148\, LR ceiling 154
+DTEND;TZID=America/New_York:20261008T090000
+SUMMARY:🏃 6 km — Easy\; optional short strides
+DESCRIPTION:Easy conversational run\, skip club tempo. Optional 4x15-20 sec
+  relaxed strides only if legs feel normal. No pace target in warm/humid co
+ nditions.\n\nPacing: provisional NYC target ~3:35 (5:05-5:06/km)\, subject
+  to HM\, recovery and race-day weather. 3:25-3:30 is conditional\; 3:15 is
+  not supported by current evidence. Easy runs conversational\; slow down f
+ or heat/humidity. Existing HR caps are reference points\, not validated ph
+ ysiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
@@ -2689,94 +2705,105 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk24-sat@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261010T080000
-DTEND;TZID=America/New_York:20261010T084500
-SUMMARY:🏃 4 km — Shakeout + strides
-DESCRIPTION:Very easy + strides. Lay out full race kit\n\nPace key: E 5:3
- 5-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps:
-  easy/long <=148\, LR ceiling 154
-CATEGORIES:Training,LongRun
+DTEND;TZID=America/New_York:20261010T083000
+SUMMARY:🏃 3 km — Optional easy shakeout
+DESCRIPTION:Very easy\; optional 3-4 short relaxed strides if fresh. Rest i
+ nstead if tired. Prepare familiar race kit\, breakfast and gels\; confirm
+  ferry/travel and official corral instructions. Race is Sunday\, not Satur
+ day.\n\nPacing: provisional NYC target ~3:35 (5:05-5:06/km)\, subject to H
+ M\, recovery and race-day weather. 3:25-3:30 is conditional\; 3:15 is not
+  supported by current evidence. Easy runs conversational\; slow down for h
+ eat/humidity. Existing HR caps are reference points\, not validated physio
+ logical zones.
+CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk24-sun@nyc-marathon-2026
-DTSTAMP:20260909T120000Z
-SEQUENCE:6
-DTSTART;TZID=America/New_York:20261011T073000
-DTEND;TZID=America/New_York:20261011T100000
-SUMMARY:🏁 GATE 4 — SOLO PACED HM TIME TRIAL (21.1 km)
-DESCRIPTION:FORMAT: 3 km warmup\, 21.1 km at HM effort\, 2-3 km cooldown (
- ~25 km total).\n\nGF ON THE BIKE HOLDS 4:30/km AND DOES NOT LET YOU GO FA
- STER IN THE FIRST 5 KM. That is the mechanism - outsource the discipline 
- you have twice failed to self-impose.\n\nPACE LADDER (solo-adjusted: a so
- lo TT reads ~1% SLOWER than a race for the same fitness\, so the bar is L
- OOSER than the 1:35 race deal\, not tighter):\n  <=1:36:30 -> 3:25 REOPEN
- S\, race pace 4:51-4:56/km (needs Gates 1-3 green)\n  1:36:30-1:40 -> 5:0
- 0/km (3:31)\n  >1:40 -> open 5:05/km\n\nCONDITIONS GATE: readout counts a
- s fair only at T+D <120 F. Above that\, apply the weather table BEFORE re
- ading the result - never temp alone.\n\nEXECUTION REHEARSAL (the actual r
- eason this exists):\n- T-48h: WRITE DOWN target bands + adjusted opening 
- pace from the forecast. Pre-commit.\n- First 3 km HR CAP 165. Non-negotia
- ble. Shaded starts mask effort.\n- Full race kit + race breakfast\, exact
- ly as 1 Nov.\n- ADIOS PRO 2 - this is the foam validation (2 yrs old\, ~1
- 00 km).\n- 2 gels\, ~40 min and ~70 min. Intensity fuel test.\n\nCOURSE: 
- Hudson River Greenway out-and-back. Flat\, continuous\, minimal crossings
- .\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM
- -eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+DTSTAMP:20261005T175059Z
+SEQUENCE:7
+DTSTART;TZID=America/New_York:20261011T080000
+DTEND;TZID=America/New_York:20261011T103000
+SUMMARY:🏁 Staten Island Half — 21.1 km / controlled race
+DESCRIPTION:NYRR Staten Island Half\, Sunday 11 Oct. 08:00 scheduled event
+  time\; confirm official start/corral and travel details. Optional 10-15 m
+ in easy warmup\, no mandatory long cooldown.\n\nEXECUTION: aim around 1:35
+  only if conditions and recovery allow. First 3 km ~4:35-4:40/km on favora
+ ble terrain\; use effort uphill. If comfortable\, settle toward ~4:30/km.
+  Do not chase lost seconds on hills\; wait until 15-16 km before pushing.
+  Steady final 5 km matters more than an aggressive opening.\n\nUse familia
+ r marathon breakfast\, shoes and practiced fueling\; retain two familiar g
+ els around 40 and 70 min if tolerated. Note any GI issues\, stops and effo
+ rt. Record recovery at 24/48/72 hours.\n\nHM interpretation in favorable c
+ onditions (judgment ranges\, not guaranteed conversions): around 1:35 with
+  a steady/strong final 5 km supports reassessing NYC toward 3:30\; around
+  1:32-1:33 makes 3:25 more credible\, subject to durability\, fueling and
+  recovery. 1:36-1:40 generally favors ~3:35-3:45\; slower or a substantial
+  fade calls for reassessment. Warm/humid or windy conditions require conte
+ xt rather than a rigid cutoff. No goal is automatically earned by a half t
+ ime.\n\nWEATHER REVIEW: compare temperature\, humidity/dew point\, wind\,
+  sun exposure and terrain over the actual running window. Use observed hou
+ rly conditions where available\; label missing observations. No automatic
+  percentage or seconds/km correction. Heat can explain slower pace/higher
+  HR\, but cannot replace running consistency. Judge the half by pacing\, f
+ inish strength and recovery as well as time.
 CATEGORIES:Training,Race
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk24-str-tue@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261006T180000
-DTEND;TZID=America/New_York:20261006T184500
-SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
-DESCRIPTION:THIS WEEK: Light - race Sunday.\n\nSESSION B — moderate\, g
- ait + stability (NO heavy eccentrics: long run is ~36 hrs away). ~35 min
- :\n1. Barbell or single-leg hip thrust 3×10 (moderate load)\n2. Step-do
- wns slow 3×8/leg (eccentric quad control - TMB descent prep + knee trac
- king)\n3. Hamstring bridge walkouts or swiss-ball curls 3×8 (hamstring 
- endurance\, low DOMS)\n4. Banded standing hip-flexor march 3×10/leg (hi
- p flexors need STRENGTH too\, not just stretching - weak+tight is the us
- ual combo)\n5. Lateral band walks 2×15/side + clamshells 2×15 (glute m
- ed - single-leg stance stability)\n6. Plank 2×45s + side plank 2×30s/s
- ide\n\nDo 4-6+ hrs after the morning club tempo. Moderate effort - leave
-  the gym feeling worked\, not wrecked.
-CATEGORIES:Training,Strength
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:🧘 15 min — Mobility/activation only
+DESCRIPTION:Skip loaded strength this week. Gentle familiar mobility and li
+ ght activation only\; no work that produces soreness. Rest instead if fati
+ gued.
+CATEGORIES:Training,Rest
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk24-milestone@nyc-marathon-2026
-DTSTAMP:20260909T120000Z
-SEQUENCE:6
+DTSTAMP:20261005T175059Z
+SEQUENCE:7
 DTSTART;TZID=America/New_York:20261011T070000
-DTEND;TZID=America/New_York:20261011T073000
-SUMMARY:🏁 GATE 4: HM time trial — BINDING pace-setter
-DESCRIPTION:SOLO TT\, solo-adjusted bars (~1% looser than a race for equal
-  fitness):\n  <=1:36:30 -> 4:51-4:56/km\, 3:25 REOPENS (needs Gates 1-3 g
- reen)\n  1:36:30-1:40 -> 5:00/km\n  >1:40 -> open 5:05/km\n\nOnly counts 
- as a fair readout at T+D <120 F. This sets race pace - April PR does not 
- vote\, and neither does how it felt.
+DTEND;TZID=America/New_York:20261011T071500
+SUMMARY:🎯 HM assessment — weather\, execution and recovery
+DESCRIPTION:Pre-race: write opening pace/effort plan using forecast conditi
+ ons. Post-race: review actual weather over race time\, splits\, terrain\,
+  fueling and recovery. August 10K is not a rigid cool-weather fitness ceil
+ ing.\n\nHM interpretation in favorable conditions (judgment ranges\, not g
+ uaranteed conversions): around 1:35 with a steady/strong final 5 km suppor
+ ts reassessing NYC toward 3:30\; around 1:32-1:33 makes 3:25 more credible
+ \, subject to durability\, fueling and recovery. 1:36-1:40 generally favor
+ s ~3:35-3:45\; slower or a substantial fade calls for reassessment. Warm/h
+ umid or windy conditions require context rather than a rigid cutoff. No go
+ al is automatically earned by a half time.\n\nProvisional NYC goal remains
+  ~3:35 until the evidence supports a change. A poor-weather result is not
+  an automatic downgrade.
 CATEGORIES:Training,Milestone
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk25-target@nyc-marathon-2026
-DTSTAMP:20260909T120000Z
-SEQUENCE:6
+DTSTAMP:20261005T175059Z
+SEQUENCE:7
 DTSTART;TZID=America/New_York:20261012T060000
 DTEND;TZID=America/New_York:20261012T061500
-SUMMARY:🎯 Wk 25 (Sharpen) — 58 km / LR 30
-DESCRIPTION:Peak sharpening week. Sat = GATE 5\, the final pace lock.\n\nL
- R lifted 26 -> 30 (9 Sep) now the HM is a TT rather than a travel race - 
- the recovery cost of Sunday dropped\, so Saturday can carry more. Still t
- he INTENSITY test\, not a distance test.\n\nPace key: E 5:35-5:55/km | MP
-  5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=14
- 8\, LR ceiling 154
+SUMMARY:🎯 Wk 25 — Post-half recovery / ~40-44 km maximum
+DESCRIPTION:Begin taper after the half. Distances are ceilings\, not mileag
+ e to make up: Tue up to 6 km easy\, Wed up to 8 km easy\, Thu up to 6 km e
+ asy\, Sat 20-24 km only if fully recovered. No club tempo. No automatic 30
+  km with 12-14 km at MP six days after the race. Reduce further or skip th
+ e long run if recovery is incomplete.\n\nPacing: provisional NYC target ~3
+ :35 (5:05-5:06/km)\, subject to HM\, recovery and race-day weather. 3:25-3
+ :30 is conditional\; 3:15 is not supported by current evidence. Easy runs
+  conversational\; slow down for heat/humidity. Existing HR caps are refere
+ nce points\, not validated physiological zones.
 CATEGORIES:Training,WeekTarget
 TRANSP:OPAQUE
 END:VEVENT
@@ -2793,40 +2820,51 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk25-tue@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261013T080000
 DTEND;TZID=America/New_York:20261013T090000
-SUMMARY:🏃 6 km — Easy recovery (SKIP CLUB)
-DESCRIPTION:48h post-HM: no club intervals. Very easy solo\n\nPace key: E
-  5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR c
- aps: easy/long <=148\, LR ceiling 154
+SUMMARY:🏃 Up to 6 km — Easy recovery\, or rest
+DESCRIPTION:48h after half: run only if walking/stairs are comfortable and
+  fatigue is settling. Very easy\, no club. Rest for pain\, altered gait or
+  substantial soreness.\n\nPacing: provisional NYC target ~3:35 (5:05-5:06/
+ km)\, subject to HM\, recovery and race-day weather. 3:25-3:30 is conditio
+ nal\; 3:15 is not supported by current evidence. Easy runs conversational\
+ ; slow down for heat/humidity. Existing HR caps are reference points\, not
+  validated physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk25-wed@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261014T080000
-DTEND;TZID=America/New_York:20261014T091500
-SUMMARY:🏃 10 km — Easy
-DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
-  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+DTEND;TZID=America/New_York:20261014T090000
+SUMMARY:🏃 Up to 8 km — Easy\, or rest
+DESCRIPTION:Conversational running if recovered\; shorten or rest if fatigu
+ e/soreness persists. No catch-up mileage.\n\nPacing: provisional NYC targe
+ t ~3:35 (5:05-5:06/km)\, subject to HM\, recovery and race-day weather. 3:
+ 25-3:30 is conditional\; 3:15 is not supported by current evidence. Easy r
+ uns conversational\; slow down for heat/humidity. Existing HR caps are ref
+ erence points\, not validated physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk25-thu@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261015T080000
-DTEND;TZID=America/New_York:20261015T094500
-SUMMARY:🏃 13 km — CLUB tempo 2×12 T
-DESCRIPTION:Back to the club: 2×12 min @ T. CLUB RULE: run YOUR paces\, 
- not the group's front pod. A tempo that becomes a race costs Saturday's 
- long run.\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-
- 4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+DTEND;TZID=America/New_York:20261015T090000
+SUMMARY:🏃 Up to 6 km — Easy\, SKIP CLUB
+DESCRIPTION:No 2x12 min tempo after the half. Easy only\; optional relaxed
+  strides if fully recovered. Preserve freshness for Saturday and NYC.\n\nP
+ acing: provisional NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recov
+ ery and race-day weather. 3:25-3:30 is conditional\; 3:15 is not supported
+  by current evidence. Easy runs conversational\; slow down for heat/humidi
+ ty. Existing HR caps are reference points\, not validated physiological zo
+ nes.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
@@ -2846,21 +2884,26 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk25-sat@nyc-marathon-2026
-DTSTAMP:20260909T120000Z
-SEQUENCE:6
+DTSTAMP:20261005T175059Z
+SEQUENCE:7
 DTSTART;TZID=America/New_York:20261017T073000
-DTEND;TZID=America/New_York:20261017T101500
-SUMMARY:🏁 30 km — LR + 12-14 km @ MP (GATE 5)
-DESCRIPTION:FINAL DRESS REHEARSAL at gate-decided MP. Structure: 10 km eas
- y / 12-14 km @ MP / 4-6 km easy. ~2:40 on feet.\n\nExact race fuelling\, 
- kit\, shoes (Adios Pro 2 - second validation). Gels on the 25-min alarm t
- hrough the whole run.\n\nTests what the 3 Oct run cannot: whether MP hold
- s when you are already 20 km deep\, and whether your gut takes gels at ra
- ce INTENSITY rather than at conversational pace.\n\n"Comfortably hard" or
-  drop one pace tier. If the MP block feels like racing\, your MP is wrong
-  - believe the run\, not the goal.\n\nPace key: E 5:35-5:55/km | MP 5:00 
- (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR
-  ceiling 154
+DTEND;TZID=America/New_York:20261017T095000
+SUMMARY:🏃 20-24 km ceiling — Recovery-dependent rehearsal
+DESCRIPTION:Only proceed if fully recovered from the half: normal walking/s
+ tairs and easy running\, no pain or altered gait\, fatigue back near basel
+ ine. If not\, shorten to 12-16 km easy or rest\; no replacement long run l
+ ater.\n\nDefault all easy. If fully recovered\, optional 6-8 km at the pro
+ visional/reassessed marathon pace mid-run\, within 20-24 km total. This is
+  not a test to exhaustion. Cut the MP block if effort feels like racing or
+  fatigue rises. No 30 km or 12-14 km MP block.\n\nUse familiar race kit an
+ d practiced fueling\; record actual carb grams\, elapsed duration and GI t
+ olerance. Oct 3 was 30.02 km\, 2:41 moving / 2:54 elapsed\; fueling succes
+ s was not verified. Do not increase gel intake beyond what has been tolera
+ ted simply to hit the old feed target.\n\nPacing: provisional NYC target ~
+ 3:35 (5:05-5:06/km)\, subject to HM\, recovery and race-day weather. 3:25-
+ 3:30 is conditional\; 3:15 is not supported by current evidence. Easy runs
+  conversational\; slow down for heat/humidity. Existing HR caps are refere
+ nce points\, not validated physiological zones.
 CATEGORIES:Training,LongRun
 TRANSP:OPAQUE
 END:VEVENT
@@ -2877,76 +2920,84 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk25-str-thu@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261015T180000
-DTEND;TZID=America/New_York:20261015T184500
-SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
-DESCRIPTION:THIS WEEK: Maintenance dose only from here - you're keeping s
- trength\, not building it.\n\nSESSION B — moderate\, gait + stability 
- (NO heavy eccentrics: long run is ~36 hrs away). ~35 min:\n1. Barbell or
-  single-leg hip thrust 3×10 (moderate load)\n2. Step-downs slow 3×8/le
- g (eccentric quad control - TMB descent prep + knee tracking)\n3. Hamstr
- ing bridge walkouts or swiss-ball curls 3×8 (hamstring endurance\, low 
- DOMS)\n4. Banded standing hip-flexor march 3×10/leg (hip flexors need S
- TRENGTH too\, not just stretching - weak+tight is the usual combo)\n5. L
- ateral band walks 2×15/side + clamshells 2×15 (glute med - single-leg 
- stance stability)\n6. Plank 2×45s + side plank 2×30s/side\n\nDo 4-6+ h
- rs after the morning club tempo. Moderate effort - leave the gym feeling
-  worked\, not wrecked.
-CATEGORIES:Training,Strength
+DTEND;TZID=America/New_York:20261015T181500
+SUMMARY:🧘 15 min — Gentle mobility/activation
+DESCRIPTION:Post-half taper: no loaded or eccentric strength. Gentle famili
+ ar mobility/activation only if recovered\; rest otherwise.
+CATEGORIES:Training,Rest
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk25-milestone@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261018T073000
 DTEND;TZID=America/New_York:20261018T080000
-SUMMARY:🏁 GATE 5: MP dress rehearsal — final pace lock
-DESCRIPTION:12-14 km @ chosen MP 'comfortably hard'\, HR drift OK → loc
- ked. Fail → drop one tier. No renegotiation after today.
+SUMMARY:🎯 NYC goal review — HM + recovery + weather
+DESCRIPTION:Choose a provisional pace from the half in its actual condition
+ s\, recovery over 48-72h and any comfortable MP rehearsal. No requirement
+  to complete a hard workout to earn a goal. If MP feels like racing or rec
+ overy is incomplete\, choose a more conservative target. Default ~3:35\; 3
+ :25-3:30 requires supporting evidence. 3:15 is not supported. Reassess for
+  NYC weather rather than treating the pace as an irreversible lock.\n\nWEA
+ THER REVIEW: compare temperature\, humidity/dew point\, wind\, sun exposur
+ e and terrain over the actual running window. Use observed hourly conditio
+ ns where available\; label missing observations. No automatic percentage o
+ r seconds/km correction. Heat can explain slower pace/higher HR\, but cann
+ ot replace running consistency. Judge the half by pacing\, finish strength
+  and recovery as well as time.
 CATEGORIES:Training,Milestone
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk26-target@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261019T060000
 DTEND;TZID=America/New_York:20261019T061500
-SUMMARY:🎯 Wk 26 (Taper 1) — 42 km / LR 18
-DESCRIPTION:WEEK FOCUS: Volume -28%\, intensity retained. Club Tuesday CO
- NTROLLED (MP only). NO CLUB THURSDAY. One short maintenance strength.\n\
- nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-ef
- f 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+SUMMARY:🎯 Wk 26 — Taper / up to 35 km
+DESCRIPTION:Freshness first: 6 km Mon\, 9 km Tue including controlled MP\,
+  6 km Thu\, 14 km Sat. All distances may be reduced for fatigue\; no make-
+ up mileage. No hard club sessions or loaded strength.\n\nPacing: provision
+ al NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recovery and race-day
+  weather. 3:25-3:30 is conditional\; 3:15 is not supported by current evid
+ ence. Easy runs conversational\; slow down for heat/humidity. Existing HR
+  caps are reference points\, not validated physiological zones.
 CATEGORIES:Training,WeekTarget
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk26-mon@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261019T080000
 DTEND;TZID=America/New_York:20261019T090000
 SUMMARY:🏃 6 km — Easy
-DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
-  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+DESCRIPTION:Easy\n\nPacing: provisional NYC target ~3:35 (5:05-5:06/km)\, s
+ ubject to HM\, recovery and race-day weather. 3:25-3:30 is conditional\; 3
+ :15 is not supported by current evidence. Easy runs conversational\; slow
+  down for heat/humidity. Existing HR caps are reference points\, not valid
+ ated physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk26-tue@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261020T080000
-DTEND;TZID=America/New_York:20261020T091500
-SUMMARY:🏃 9 km — CLUB → 2×3 km @ MP
-DESCRIPTION:Taper: 2×3 km @ race MP at the club - do NOT race the group.
-  CLUB RULE: run YOUR paces\, not the group's front pod. A tempo that bec
- omes a race costs Saturday's long run.\n\nPace key: E 5:35-5:55/km | MP 
- 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=14
- 8\, LR ceiling 154
+DTEND;TZID=America/New_York:20261020T090000
+SUMMARY:🏃 Up to 9 km — Controlled 2×2 km MP\, SOLO
+DESCRIPTION:2 km easy + 2x2 km at chosen MP with 1 km easy between + 2 km e
+ asy = 9 km. Solo\, not club intervals. MP should feel controlled. Make it
+  all easy or shorten if tired.\n\nPacing: provisional NYC target ~3:35 (5:
+ 05-5:06/km)\, subject to HM\, recovery and race-day weather. 3:25-3:30 is
+  conditional\; 3:15 is not supported by current evidence. Easy runs conver
+ sational\; slow down for heat/humidity. Existing HR caps are reference poi
+ nts\, not validated physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
@@ -2963,14 +3014,16 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk26-thu@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261022T080000
 DTEND;TZID=America/New_York:20261022T090000
 SUMMARY:🏃 6 km — Easy + strides (SKIP CLUB)
-DESCRIPTION:No club tempo - taper. Easy + 4×20s strides\n\nPace key: E 5
- :35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR cap
- s: easy/long <=148\, LR ceiling 154
+DESCRIPTION:No club tempo - taper. Easy + 4×20s strides\n\nPacing: provisi
+ onal NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recovery and race-d
+ ay weather. 3:25-3:30 is conditional\; 3:15 is not supported by current ev
+ idence. Easy runs conversational\; slow down for heat/humidity. Existing H
+ R caps are reference points\, not validated physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
@@ -2987,14 +3040,19 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk26-sat@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261024T080000
-DTEND;TZID=America/New_York:20261024T101500
-SUMMARY:🏃 18 km — LR + 5 km MP
-DESCRIPTION:Easy with 5 km @ race MP mid-run. Last run over 15 km\n\nPace
-  key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:3
- 3\nHR caps: easy/long <=148\, LR ceiling 154
+DTEND;TZID=America/New_York:20261024T093000
+SUMMARY:🏃 Up to 14 km — Easy\; optional 3 km MP
+DESCRIPTION:Eight days to NYC: 14 km maximum\, mostly easy. Optional 3 km a
+ t chosen MP mid-run only if fresh. No 18 km or hard finish. Shorten for fa
+ tigue. Practice familiar kit/fueling without trying to prove fitness.\n\nP
+ acing: provisional NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recov
+ ery and race-day weather. 3:25-3:30 is conditional\; 3:15 is not supported
+  by current evidence. Easy runs conversational\; slow down for heat/humidi
+ ty. Existing HR caps are reference points\, not validated physiological zo
+ nes.
 CATEGORIES:Training,LongRun
 TRANSP:OPAQUE
 END:VEVENT
@@ -3011,37 +3069,31 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk26-str-tue@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261020T180000
-DTEND;TZID=America/New_York:20261020T184500
-SUMMARY:🏋️ Strength B — hamstrings/glutes/hips
-DESCRIPTION:THIS WEEK: Short maintenance: hip thrust + band work + core o
- nly\, ~20 min. Last strength session of the plan.\n\nSESSION B — moder
- ate\, gait + stability (NO heavy eccentrics: long run is ~36 hrs away). 
- ~35 min:\n1. Barbell or single-leg hip thrust 3×10 (moderate load)\n2. 
- Step-downs slow 3×8/leg (eccentric quad control - TMB descent prep + kn
- ee tracking)\n3. Hamstring bridge walkouts or swiss-ball curls 3×8 (ham
- string endurance\, low DOMS)\n4. Banded standing hip-flexor march 3×10/
- leg (hip flexors need STRENGTH too\, not just stretching - weak+tight is
-  the usual combo)\n5. Lateral band walks 2×15/side + clamshells 2×15 (
- glute med - single-leg stance stability)\n6. Plank 2×45s + side plank 2
- ×30s/side\n\nDo 4-6+ hrs after the morning club tempo. Moderate effort 
- - leave the gym feeling worked\, not wrecked.
-CATEGORIES:Training,Strength
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:🧘 15 min — Mobility/activation only
+DESCRIPTION:Gentle familiar mobility/activation. Skip loaded strength and a
+ nything that causes soreness. No strength-building in the final two weeks.
+CATEGORIES:Training,Rest
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk27-target@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261026T060000
 DTEND;TZID=America/New_York:20261026T061500
-SUMMARY:🎯 Wk 27 (RACE WEEK) — ~21 + 42.2 km / LR 42.2
-DESCRIPTION:WEEK FOCUS: NO CLUB\, NO STRENGTH this week. Carb-load Thu-Sa
- t (8-10 g/kg/day). Expo Friday. Pace bracelet printed for gate-decided p
- ace.\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 
- | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+SUMMARY:🎯 Wk 27 — RACE WEEK / up to 20 km + NYC
+DESCRIPTION:No club or loaded strength. Tue 7 km with short controlled MP\,
+  Wed 5 km easy\, Thu 5 km easy\, Sat 3 km optional shakeout. Reduce if tir
+ ed. Use familiar carb-loading\, breakfast and fueling practices. Final pac
+ e depends on the half\, recovery and NYC forecast/conditions.\n\nPacing: p
+ rovisional NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recovery and
+  race-day weather. 3:25-3:30 is conditional\; 3:15 is not supported by cur
+ rent evidence. Easy runs conversational\; slow down for heat/humidity. Exi
+ sting HR caps are reference points\, not validated physiological zones.
 CATEGORIES:Training,WeekTarget
 TRANSP:OPAQUE
 END:VEVENT
@@ -3058,40 +3110,49 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk27-tue@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261027T080000
-DTEND;TZID=America/New_York:20261027T091500
-SUMMARY:🏃 8 km — 3×2 km MP (SOLO\, skip club)
-DESCRIPTION:Solo: 2 km wu + 3×2 km @ race MP + cd. Skip the club - no gr
- oup-pace risk 5 days out\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-dec
- ided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling
-  154
+DTEND;TZID=America/New_York:20261027T090000
+SUMMARY:🏃 Up to 7 km — 3×1 km MP\, SOLO
+DESCRIPTION:2 km easy + 3x1 km at chosen MP with 500 m easy between + 1 km
+  easy = 7 km. Short controlled tune-up\, not a fitness test. All easy or r
+ est if tired.\n\nPacing: provisional NYC target ~3:35 (5:05-5:06/km)\, sub
+ ject to HM\, recovery and race-day weather. 3:25-3:30 is conditional\; 3:1
+ 5 is not supported by current evidence. Easy runs conversational\; slow do
+ wn for heat/humidity. Existing HR caps are reference points\, not validate
+ d physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk27-wed@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261028T080000
 DTEND;TZID=America/New_York:20261028T084500
 SUMMARY:🏃 5 km — Easy
-DESCRIPTION:Easy\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T
-  4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling 154
+DESCRIPTION:Easy\n\nPacing: provisional NYC target ~3:35 (5:05-5:06/km)\, s
+ ubject to HM\, recovery and race-day weather. 3:25-3:30 is conditional\; 3
+ :15 is not supported by current evidence. Easy runs conversational\; slow
+  down for heat/humidity. Existing HR caps are reference points\, not valid
+ ated physiological zones.
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk27-thu@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261029T080000
 DTEND;TZID=America/New_York:20261029T084500
 SUMMARY:🏃 5 km — Easy + strides (SKIP CLUB)
-DESCRIPTION:Easy + 4×20s strides. Carb-load begins: 8-10 g/kg/day\n\nPac
- e key: E 5:35-5:55/km | MP 5:00 (gate-decided) | T 4:30-4:35 | HM-eff 4:
- 33\nHR caps: easy/long <=148\, LR ceiling 154
+DESCRIPTION:Easy + 4×20s strides. Carb-load begins: 8-10 g/kg/day\n\nPacin
+ g: provisional NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recovery
+  and race-day weather. 3:25-3:30 is conditional\; 3:15 is not supported by
+  current evidence. Easy runs conversational\; slow down for heat/humidity.
+  Existing HR caps are reference points\, not validated physiological zones
+ .
 CATEGORIES:Training
 TRANSP:OPAQUE
 END:VEVENT
@@ -3108,32 +3169,47 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk27-sat@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261031T080000
 DTEND;TZID=America/New_York:20261031T084500
 SUMMARY:🏃 3 km — 15-min shakeout
-DESCRIPTION:Shakeout + 4×30s pickups. Kit laid out\, bib pinned\, 8 gels
-  packed\, anti-chafe. Early night\n\nPace key: E 5:35-5:55/km | MP 5:00 
- (gate-decided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, L
- R ceiling 154
+DESCRIPTION:Shakeout + 4×30s pickups. Kit laid out\, bib pinned\, 8 gels p
+ acked\, anti-chafe. Early night\n\nPacing: provisional NYC target ~3:35 (5
+ :05-5:06/km)\, subject to HM\, recovery and race-day weather. 3:25-3:30 is
+  conditional\; 3:15 is not supported by current evidence. Easy runs conver
+ sational\; slow down for heat/humidity. Existing HR caps are reference poi
+ nts\, not validated physiological zones.
 CATEGORIES:Training,LongRun
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:wk27-sun@nyc-marathon-2026
-DTSTAMP:20260802T120000Z
-SEQUENCE:4
+DTSTAMP:20261005T175059Z
+SEQUENCE:5
 DTSTART;TZID=America/New_York:20261101T080000
 DTEND;TZID=America/New_York:20261101T123000
-SUMMARY:🏁 42.2 km — NYC MARATHON 🏁
-DESCRIPTION:Plan-of-record 5:00/km (3:29-3:31) unless Gates 4/5 upgraded 
- to 4:51-4:56. Effort-based on Verrazzano (bank NOTHING). Patience throug
- h Queensboro. TMB quads are for miles 16-26 + 5th Ave. Gel every 20-25 m
- in from km 8 (80-90 g/hr). Breakfast 120-150 g carbs 3 hr out. First 2 k
- m: HR cap\, not pace cap\n\nPace key: E 5:35-5:55/km | MP 5:00 (gate-dec
- ided) | T 4:30-4:35 | HM-eff 4:33\nHR caps: easy/long <=148\, LR ceiling
-  154
+SUMMARY:🏁 NYC MARATHON — provisional ~3:35\; weather-adjusted
+DESCRIPTION:Provisional working goal ~3:35 (~5:05-5:06/km)\, with initial a
+ ssessment range ~3:30-3:40. Consider 3:25-3:30 only if the half\, recovery
+ \, durability and fueling support it\; no 3:15 opening. Choose final effor
+ t/pace for actual race weather.\n\nVerrazzano and Queensboro: run by effor
+ t\, bank no time. Conservative opening\; no chasing pace uphill. Reassess
+  after 30 km. Heat/humidity or poor recovery means slower pacing.\n\nUse f
+ amiliar breakfast and a practiced gel/fluid schedule. Set intake from demo
+ nstrated tolerance and actual gel carb content\, not an assumed gel count\
+ ; do not introduce a higher carb rate on race day.\n\nCalendar time is a p
+ laceholder\, not your assigned wave. Follow official start\, transport and
+  corral instructions.\n\nWEATHER REVIEW: compare temperature\, humidity/de
+ w point\, wind\, sun exposure and terrain over the actual running window.
+  Use observed hourly conditions where available\; label missing observatio
+ ns. No automatic percentage or seconds/km correction. Heat can explain slo
+ wer pace/higher HR\, but cannot replace running consistency. Judge the hal
+ f by pacing\, finish strength and recovery as well as time.\n\nPacing: pro
+ visional NYC target ~3:35 (5:05-5:06/km)\, subject to HM\, recovery and ra
+ ce-day weather. 3:25-3:30 is conditional\; 3:15 is not supported by curren
+ t evidence. Easy runs conversational\; slow down for heat/humidity. Existi
+ ng HR caps are reference points\, not validated physiological zones.
 CATEGORIES:Training,Race
 TRANSP:OPAQUE
 END:VEVENT
