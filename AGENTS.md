@@ -38,15 +38,18 @@ confirmed. Do not assume that Google Calendar automatically discovers new ICS
 files. Existing subscribed feeds refresh according to the calendar service's
 schedule, so changes may not appear immediately on the phone.
 
-## Repository roles and publication workflow
+## Repository and delivery workflow
 
 - Edit calendars only in `/Users/richardchen/Documents/cal_feeds`.
-- `origin` points to private `timberpups/cal_feeds`.
-- `public` points to public `timberpups/cal-feeds-public`.
-- Commit and push source changes to `origin`, then run `python3 publish_feeds.py`
-  when publication is authorized. Use `--dry-run` to inspect pending changes.
-- The script publishes tracked root-level ICS files and a generated README only.
-  Keep scripts, context files, career records, and private notes in private repos.
-- Subscription URLs must use `cal-feeds-public`, not private `cal_feeds`.
-- Preserve the existing public repository name and feed filenames to retain
-  calendar subscriptions. Career lives separately in `Documents/career`.
+- `origin` points to private `timberpups/cal_feeds`, the only calendar repository.
+- Commit and push calendar changes to `origin` when authorized.
+- The former public feed repository was deleted at the user's request on
+  October 5, 2026. Its URLs no longer work. Do not recreate it or make private
+  calendars public without authorization.
+- There is currently no automatic Google Calendar subscription endpoint.
+  Clearly distinguish a saved or pushed ICS file from a working calendar feed.
+- For one-time access, provide the ICS file for Google Calendar import. Imports
+  do not automatically update; check for duplicates before repeated imports.
+- The user's preference remains automatic calendar access on their phone.
+  Establish an authorized hosting or calendar integration before claiming sync.
+- Career lives separately in `/Users/richardchen/Documents/career`.
