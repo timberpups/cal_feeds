@@ -1,48 +1,72 @@
-# cal_feeds
+# Calendar feeds
 
-Personal iCalendar feeds for training, trips, and other schedules.
+Public iCalendar subscriptions for training and other schedules. The source of
+truth is this repository: edit a file, commit, and push to `main`. Google Calendar
+fetches updates from the same URL on its own refresh schedule.
 
-## Calendars
+## Subscription URLs
 
-Training calendars stored as iCalendar (`.ics`) files.
+| Calendar | Public URL |
+|---|---|
+| NYC Marathon 2026 Training | [Subscribe / download](https://raw.githubusercontent.com/timberpups/cal_feeds/main/feeds/nyc_marathon_2026.ics) |
+| Gym Program 2026 | [Subscribe / download](https://raw.githubusercontent.com/timberpups/cal_feeds/main/feeds/gym_program_2026.ics) |
 
-| File | Calendar | Events |
-|---|---|---|
-| `nyc_marathon_2026.ics` | NYC Marathon 2026 training plan | 247 |
-| `gym_program_2026.ics` | Gym program 2026 — hike prep + 8-week build | 40 |
+These URLs require the repository to be public. A GitHub `blob` page is not a
+calendar endpoint; use the `raw.githubusercontent.com` links above.
 
-## Repository and calendar access
+## Structure
 
-`timberpups/cal_feeds` is the single private calendar repository. Edit calendars
-in `/Users/richardchen/Documents/cal_feeds`, then commit and push to `origin`.
-Career records and résumés live separately in `timberpups/career`.
+```text
+feeds/                  Published .ics files; one stable filename per calendar
+scripts/validate_feeds.py
+.github/workflows/validate-feeds.yml
+README.md               Subscription URLs and editing instructions
+AGENTS.md               Repository guidance for calendar updates
+```
 
-The former public feed repository was deleted at the user's request on
-October 5, 2026. Its subscription URLs no longer work. The public remote and
-publisher have been removed; do not recreate public hosting without authorization.
+## Add to Google Calendar
 
-## Google Calendar
+On Google Calendar in a desktop browser:
 
-This private repository does not currently provide a subscription endpoint.
-Download an ICS file and import it through Google Calendar's Import & export
-settings for a one-time copy. Later repository changes do not automatically
-update imported events. Avoid repeatedly importing the same calendar without
-checking for duplicates.
+1. Next to **Other calendars**, click **+**, then **From URL**.
+2. Paste one subscription URL above and click **Add calendar**.
+3. Repeat for other feeds you want. They will appear on your phone under the same
+   Google account; check that each calendar is enabled in the phone app.
+4. Hide or unsubscribe from obsolete feeds to avoid displaying the old plan.
 
-For automatic updates on the phone, a new calendar integration or subscription
-host must be configured first. Creating or pushing an ICS file here alone does
-not publish a feed or synchronize Google Calendar.
+Use **From URL**, not **Import**. An import creates a one-time copy and does not
+follow later repository changes. Google controls refresh timing; this setup
+cannot force an immediate refresh or discover new calendars automatically.
 
-## Marathon update — October 5, 2026
+## Update or add a calendar
 
-The NYC feed now uses Staten Island Half on Sunday, October 11, with a reduced
-race-week workload and recovery-led taper. The provisional NYC goal is about
-3:35; 3:25–3:30 depends on the half, conditions, recovery and endurance evidence.
-Conflicting October gym build sessions are replaced by rest/mobility until NYC.
-Summer pace is interpreted with temperature, humidity/dew point, wind and route
-context; no automatic heat correction is applied. October 17 is now an optional
-20–24 km rehearsal with at most 6–8 km at marathon pace if fully recovered.
+- Edit existing files in `feeds/` without changing their filenames or event UIDs.
+- Increment changed events' `SEQUENCE`; update `DTSTAMP` and `LAST-MODIFIED` in UTC.
+- Keep the correct event timezone and iCalendar CRLF line endings.
+- Run `python3 scripts/validate_feeds.py` before committing.
+- Commit and push to `main`. Existing subscriptions keep the same URL.
+- To add a calendar, create `feeds/<stable-name>.ics`, add its URL to the table,
+  validate, commit and push. Subscribe once to its new URL:
 
-Existing event UIDs are retained and revision metadata incremented, so calendar
-subscriptions can update the existing entries. Refresh timing depends on the
-calendar app. Historical training entries remain as the original plan.
+```text
+https://raw.githubusercontent.com/timberpups/cal_feeds/main/feeds/<stable-name>.ics
+```
+
+The GitHub workflow validates feeds on pushes and pull requests. Raw URLs serve
+committed files directly; validation does not delay publication or block a direct
+push. If validation fails, correct the feed and push the fix.
+
+## Public content
+
+Everything in this repository, including Git history, is public once visibility
+is enabled. Only add calendar details you intend to share publicly. Keep booking
+codes, private addresses, credentials and private documents elsewhere. This
+repository does not contain a private publication area.
+
+## Training plan revision
+
+The October 5, 2026 update replaces the solo half trial with Staten Island Half
+on Sunday October 11, reduces race-week load and uses a recovery-dependent taper.
+The provisional NYC goal is about 3:35; faster goals depend on performance,
+weather and recovery. Gym entries agree with the running taper. Historical
+training entries retain the original plan.

@@ -1,0 +1,20 @@
+name: Validate calendar feeds
+on:
+  push:
+    branches: [main]
+    paths: ['feeds/**', 'scripts/**', '.github/workflows/validate-feeds.yml']
+  pull_request:
+    paths: ['feeds/**', 'scripts/**', '.github/workflows/validate-feeds.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check iCalendar files
+        run: python scripts/validate_feeds.py
